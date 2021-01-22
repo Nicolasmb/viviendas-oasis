@@ -1,0 +1,68 @@
+<app-carousel></app-carousel>
+
+
+<div class="album py-5">
+  <div class="container">
+
+    <div class="row">
+        <div class="col-md-4" *ngFor="let prefabricada of prefabricadas">
+            <app-card [id]="prefabricada.id" ></app-card>
+        </div>
+  </div>
+</div>
+
+<!-- BANNER LLAMATIVO -->
+<div class="container bg-danger text-white">
+  <div class="d-flex align-items-center" style="height: 150px">
+    <div class="col-12 text-center">
+      <h1>BANNER LLAMATIVO</h1>
+      <p>Contacto telefónico</p>
+    </div>
+  </div>
+</div>
+
+<!-- NUESTRAS OFICINAS Y FABRICA -->
+<section>
+  <div class="container py-5">
+    <div class="row mt-4">
+      <div class="col-md-6 text-center">
+        <h4>NUESTRAS OFICINAS</h4> 
+        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras Oficinas">
+      </div>
+  
+      <div class="col-md-6 text-center">
+        <h4>NUESTRAS FABRICA</h4>
+        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras fabricas">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="jumbotron mt-5 pt-4" style="margin-bottom:0">
+  <div class="container pb-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h5 class="pb-3">Acerca de Viviendas Oasis</h5>
+        <!-- TODO: NO FUNCIONA EN LA VERSION MOVIL PONER UNA ALTURA DE 130 PX. -->
+        <div class="container px-0" style="height: 130px;">
+          <p class="text-justify mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Duis non vehicula arcu. Cras viverra venenatis molestie. 
+            Class aptent taciti sociosqu ad litora torquent per conubia 
+            nostra, per inceptos himenaeos. Integer auctor sagittis porttitor. 
+            Praesent. 
+          </p> 
+        </div>
+        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras Oficinas">
+      </div>
+  
+      <div class="col-md-6 text-center">
+        <h5 class="pb-3">Contacto</h5>
+        <div class="container px-0" style="height: 130px;"></div>
+        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras fabricas">
+      </div>
+    </div>
+  </div>
+</div>
+
+

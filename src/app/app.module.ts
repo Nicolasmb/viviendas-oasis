@@ -8,8 +8,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 // Se importa el componenete AppComponent.
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+
+// COMPONENTES
+import { CardComponent } from './components/card/card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { ModeloPageComponent } from './components/modelo-page/modelo-page.component';;
+
+// MODULOS
+import { SharedModule } from './shared/shared.module';
 
 
 // Cada aplicación tiene al menos un módulo Angular, el módulo raíz, que debe 
@@ -23,14 +30,17 @@ import { CarouselComponent } from './components/carousel/carousel.component';
   declarations: [
   // Se declaran los componentes que se usan en este módulo.
     AppComponent,
-    NavbarComponent,
     CarouselComponent,
+    HomePageComponent,
+    ModeloPageComponent,
+    CardComponent
   ],
   imports: [
   //  Bajo este epígrafe se declaran las importaciones que son necesarias para
   //  que este módulo funcione correctamente.
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
   // Con el metadato "bootstrap" (arranque) se define el componente raíz que Angular
