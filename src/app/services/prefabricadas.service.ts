@@ -17,6 +17,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "36 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "36-L",
@@ -24,6 +25,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "36 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "36-S",
@@ -31,6 +33,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "36 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "36-M",
@@ -38,6 +41,7 @@ export class PrefabricadasService {
       tipo: "Minimalista",
       superficie: "36 m²",
       galeria: false,
+      dormitorios: 2,
     },
 
     // MODELOS 42
@@ -47,6 +51,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "42 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "42-L",
@@ -54,6 +59,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "42 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "42-S",
@@ -61,6 +67,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "42 m²",
       galeria: false,
+      dormitorios: 2,
     },
 
     // MODELOS 48
@@ -70,6 +77,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "48 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "48-L",
@@ -77,6 +85,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "48 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "48-S",
@@ -84,6 +93,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "48 m²",
       galeria: false,
+      dormitorios: 2,
     },
 
     // MODELOS 48G
@@ -93,6 +103,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "48 m²",
       galeria: true,
+      dormitorios: 2,
     },
     {
       id: "48G-L",
@@ -100,6 +111,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "48 m²",
       galeria: true,
+      dormitorios: 2,
     },
     {
       id: "48G-S",
@@ -107,6 +119,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "48 m²",
       galeria: true,
+      dormitorios: 2,
     },
 
     // MODELOS 54
@@ -116,6 +129,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "54 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "54-L",
@@ -123,6 +137,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "54 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "54-S",
@@ -130,6 +145,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "54 m²",
       galeria: false,
+      dormitorios: 2,
     },
 
     
@@ -140,6 +156,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "54 m²",
       galeria: true,
+      dormitorios: 2,
     },
     {
       id: "54G-L",
@@ -147,6 +164,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "54 m²",
       galeria: true,
+      dormitorios: 2,
     },
     {
       id: "54G-S",
@@ -154,6 +172,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "54 m²",
       galeria: true,
+      dormitorios: 2,
     },
 
     // MODELOS 64-2H
@@ -163,6 +182,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "64-2H-L",
@@ -170,6 +190,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "64 m²",
       galeria: false,
+      dormitorios: 2,
     },
     {
       id: "64-2H-S",
@@ -177,6 +198,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "64 m²",
       galeria: false,
+      dormitorios: 2,
     },
 
     // MODELOS 64-3H
@@ -186,6 +208,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: false,
+      dormitorios: 3,
     },
     {
       id: "64-3H-L",
@@ -193,6 +216,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "64 m²",
       galeria: false,
+      dormitorios: 3,
     },
     {
       id: "64-3H-S",
@@ -200,6 +224,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "64 m²",
       galeria: false,
+      dormitorios: 3,
     },
 
      // MODELOS 64G-2H
@@ -209,6 +234,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "64G-2H-L",
@@ -216,6 +242,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "64G-2H-S",
@@ -223,6 +250,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
 
     // MODELOS 64G-3H
@@ -232,6 +260,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "64G-3H-L",
@@ -239,6 +268,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "64G-3H-S",
@@ -246,6 +276,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "64G-3H-M",
@@ -253,6 +284,7 @@ export class PrefabricadasService {
       tipo: "Minimalista",
       superficie: "64 m²",
       galeria: true,
+      dormitorios: 3,
     },
 
      // MODELOS 81
@@ -262,6 +294,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "81 m²",
       galeria: false,
+      dormitorios: 3,
     },
     {
       id: "81-L",
@@ -269,6 +302,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "81 m²",
       galeria: false,
+      dormitorios: 3,
     },
     {
       id: "81-S",
@@ -276,6 +310,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "81 m²",
       galeria: false,
+      dormitorios: 3,
     },
     {
       id: "81-M",
@@ -283,6 +318,7 @@ export class PrefabricadasService {
       tipo: "Minimalista",
       superficie: "81 m²",
       galeria: false,
+      dormitorios: 3,
     },
 
     // MODELOS 81G
@@ -292,6 +328,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "81 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "81G-L",
@@ -299,6 +336,7 @@ export class PrefabricadasService {
       tipo: "Ladrillo",
       superficie: "81 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "81G-S",
@@ -306,6 +344,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "81 m²",
       galeria: true,
+      dormitorios: 3,
     },
     {
       id: "81G-M",
@@ -313,11 +352,16 @@ export class PrefabricadasService {
       tipo: "Minimalista",
       superficie: "81 m²",
       galeria: true,
+      dormitorios: 3,
     },
   ]
 
   constructor() { }
 
+  getPrefabricada(id: string): PrefabricadaModel {
+    return this.prefabricadas.find(x => x.id === id);
+  }
+  
   getPrefabricadas(): PrefabricadaModel[] {
     return this.prefabricadas;
   }

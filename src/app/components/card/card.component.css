@@ -1,0 +1,107 @@
+:host {
+    --rojo: #C1272D;
+  }
+
+@font-face {
+    font-family: "Neo Sans Std";
+    src: url("/src/assets/fonts/neo-sans-std.otf") format("truetype");
+}
+
+p, h4 {
+    font-family: "Neo Sans Std";
+    text-align: justify;
+}
+
+@keyframes jittery {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(0.9);
+    }
+  
+    15% {
+      transform: scale(1.15);
+    }
+  
+    20% {
+      transform: scale(1.15) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1.15) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1.15) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1.15) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1.15) rotate(0);
+    }
+  }
+
+/* La regla @keyframes especifica el código de animación. */
+@keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+.contenedor-imagen {
+    background-color: black;
+    overflow: hidden;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;
+    border-radius: 0px;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.15s ease-out; 
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.card:hover {
+    border-color:  rgba(0, 0, 0, 1);
+    border-width: 0px;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1), 0 12px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Se seleccionan todos lo botones(por eso el "*") hijos de card:hover */
+.card:hover * button {
+    color: white;
+    /* animation: jittery 3s infinite;   */
+    background-color: var(--rojo);
+    font-size: bold;
+}
+
+/* * Se seleccionan todas las clases ".image" (por eso el "*") hijas de card:hover  */
+.card:hover * .image {
+    object-fit: flex;
+    transform-origin: center center;
+    animation: grow 10s infinite linear;
+}
+
+button {
+    color: var(--rojo);
+    font-weight: bold;
+    border-color: var(--rojo);
+    border-radius: 0px;
+    border-width: 2px;
+}

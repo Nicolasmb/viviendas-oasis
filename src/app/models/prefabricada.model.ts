@@ -7,5 +7,6 @@ export interface PrefabricadaModel {
     tipo: string;
     superficie: string;
     galeria: boolean;
+    dormitorios: number;
 
 }
