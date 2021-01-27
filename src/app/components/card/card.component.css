@@ -1,5 +1,6 @@
 :host {
     --rojo: #C1272D;
+    --amarillo: #FCEE21;
   }
 
 @font-face {
@@ -8,11 +9,11 @@
 }
 
 p, h4 {
-    font-family: "Neo Sans Std";
+    /* font-family: "Neo Sans Std"; */
     text-align: justify;
 }
 
-@keyframes jittery {
+@keyframes latido {
     5%,
     50% {
       transform: scale(1);
@@ -22,29 +23,10 @@ p, h4 {
       transform: scale(0.9);
     }
   
-    15% {
-      transform: scale(1.15);
-    }
-  
-    20% {
-      transform: scale(1.15) rotate(-5deg);
-    }
-  
     25% {
-      transform: scale(1.15) rotate(5deg);
+      transform: scale(1.05);
     }
-  
-    30% {
-      transform: scale(1.15) rotate(-3deg);
-    }
-  
-    35% {
-      transform: scale(1.15) rotate(2deg);
-    }
-  
-    40% {
-      transform: scale(1.15) rotate(0);
-    }
+
   }
 
 /* La regla @keyframes especifica el código de animación. */
@@ -52,10 +34,10 @@ p, h4 {
     0% {
       transform: scale(1);
     }
-    100% {
-      transform: scale(1.5);
+    50% {
+      transform: scale(1.75);
     }
-  }
+}
 
 .contenedor-imagen {
     background-color: black;
@@ -66,7 +48,7 @@ p, h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-width: 0px;
-    border-radius: 0px;
+    border-radius: 4px;
     background: white;
     position: relative;
     display: flex;
@@ -78,17 +60,17 @@ p, h4 {
 
 .card:hover {
     border-color:  rgba(0, 0, 0, 1);
-    border-width: 0px;
-    transform: scale(1.05);
+    /* border-width: 0px; */
+    transform: scale(1.075);
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1), 0 12px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Se seleccionan todos lo botones(por eso el "*") hijos de card:hover */
 .card:hover * button {
     color: white;
-    /* animation: jittery 3s infinite;   */
-    background-color: var(--rojo);
-    font-size: bold;
+    background-color: #343A40;
+    font-weight: bold;
+    animation: latido 3s infinite;  
 }
 
 /* * Se seleccionan todas las clases ".image" (por eso el "*") hijas de card:hover  */
@@ -99,9 +81,45 @@ p, h4 {
 }
 
 button {
-    color: var(--rojo);
+    color: black;
+    background-color: white;
     font-weight: bold;
-    border-color: var(--rojo);
-    border-radius: 0px;
     border-width: 2px;
+}
+
+.badge {
+  border-radius: 0px 0px 4px 0px;
+  font-size: 14px;
+  padding: 7.5px;
+  font-weight: bold;
+}
+
+.badge-dark {
+  border-radius: 0px 0px 0px 5px;
+  font-size: 10px;
+  /* background-color: var(--amarillo); */
+  border-radius: 0px;
+  padding: 5px;
+  font-weight: normal;
+}
+
+.texto-precio {
+  font-size: 30px; 
+  font-weight: bold;
+  color: var(--rojo);
+}
+
+.texto-icono {
+  font-size: 14px; 
+  font-weight: bold;
+}
+
+.iconos-caracteristicas {
+  margin-right: 3px;
+  height: 18px;
+  /* filter: grayscale(100%); */
+}
+
+.card:hover .iconos-caracteristicas {
+  filter: grayscale(0%);
 }

@@ -1,26 +1,36 @@
-<div class="card">
+<div class="card" style="position: relative;">
     <div class="contenedor-imagen" style="border-color: black;">
-
         <img class="image" 
              alt="Thumbnail" 
              style="width: 100%;" 
-             src="./assets/images/{{ prefabricada.id }}.jpg"/>
+             src="./assets/images/fachadas/{{ prefabricada.id }}.jpg"/>
     </div>
     <div class="container px-0">
-        <div class="container my-2">
-            <span style="font-size: 30px; font-weight: bold;">$750.000</span>
+        <div class="d-flex my-2 flex-wrap px-3 align-items-center">
+            <span class="texto-precio">$750.000</span>
+            <div class="flex-grow-1"></div>
+            <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
+            <span class="texto-icono mr-2">{{ prefabricada.superficie }}</span>
+            <img class="iconos-caracteristicas" src="./assets/images/dormitorios.png"/>
+            <span class="texto-icono mr-2">{{ prefabricada.dormitorios }}</span>
+            <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
+            <span class="texto-icono">1</span>
         </div>
         <hr class="m-0">
-        <p *ngIf=!prefabricada.galeria class="card-text px-3 mt-3 mb-0" style="font-size: 15px;">
+        <div class="d-flex justify-content-between">
+            <span class="badge badge-warning">{{prefabricada.tipo}}</span>
+            <span class="badge badge-dark align-self-start">Viviendas Oasis</span>
+        </div>
+        <p *ngIf=!prefabricada.galeria class="card-text px-3 mt-3 mb-0">
             Vivienda de {{prefabricada.superficie}}, con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor y baño.
         </p>
         <p *ngIf=prefabricada.galeria class="card-text px-3 mt-3 mb-0" style="font-size: 15px;">
-            Vivienda con {{prefabricada.superficie}}, con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y galería/cochera.
+            Vivienda de {{prefabricada.superficie}}, con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y galería/cochera.
         </p>
         <div class="d-flex justify-content-between align-items-center">
-            <small class="text-muted p-4">Modelo {{ prefabricada.id }}</small>
+            <small class="px-3">Modelo {{ prefabricada.id }}</small>
             <div class="btn-group p-4">
-                <button (click)="verModelo()" type="button" class="btn btn-outline-danger">Ver Mas</button>
+                <button class="btn btn-dark" (click)="verModelo()" type="button">Mas Info</button>
             </div>
         </div>
         

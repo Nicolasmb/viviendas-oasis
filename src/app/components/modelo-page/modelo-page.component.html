@@ -1,2 +1,58 @@
+<div class="jumbotron jumbotron-fluid" style="margin-top: 76px">
+    <div class="container">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+  </div>
+<div class="container">
+    <h1 class="mb-4" style="font-weight: bold;">{{ prefabricada.nombre }}</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="mb-5">Modelo: {{ prefabricada.id }}</h3>
+            <a (click)="mostrarIsometrica()" style="cursor: pointer">
+                <img class="img-thumbnail" style="border-width: 0px;" src="./assets/images/isometricas/{{ prefabricada.isometria }}" alt="">
+            </a>
+        </div>
+        <div class="col-md-6">
+            <h2>Especificaciones Técnicas</h2>
+            <p *ngIf=!prefabricada.galeria>
+                Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor y baño.
+            </p>
+            <p *ngIf=prefabricada.galeria>
+                Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y galería/cochera.
+            </p>
+            <ul class="pl-0">
 
-<p style="margin-top: 124px;">modelo-page works!</p>
+                <!-- PAREDES EXTERIORES E INTERIORES -->
+                <li class="list-group-item list-group-item-rojo">Paredes Exteriores e Interiores</li>
+                <li class="list-group-item">
+                    <p class="mb-0" *ngFor="let item of especificacion.paredes">{{ item }}</p>
+                </li>
+
+                <!-- ABERTURAS -->
+                <li class="list-group-item list-group-item-rojo">Aberturas</li>
+                <li class="list-group-item">
+                    <p class="mb-0" *ngFor="let item of especificacion.aberturas">{{ item }}</p>
+                </li>
+
+                <!-- TECHO -->
+                <li class="list-group-item list-group-item-rojo">Techo</li>
+                <li class="list-group-item">
+                    <p class="mb-0" *ngFor="let item of especificacion.techo">{{ item }}</p>
+                </li>
+
+                <!-- CIELORRASOS -->
+                <li *ngIf= "prefabricada.tipo !== 'Minimalista'" class="list-group-item list-group-item-rojo">Cielorraso</li>
+                <li *ngIf= "prefabricada.tipo !== 'Minimalista'" class="list-group-item">
+                    <p class="mb-0">{{ especificacion.cielorrasos }}</p>
+                </li>
+
+                <!-- INSTALACIONES -->
+                <li class="list-group-item list-group-item-rojo">Instalaciones</li>
+                <li class="list-group-item">
+                    <p class="mb-0" *ngFor="let item of especificacion.instalaciones">{{ item }}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

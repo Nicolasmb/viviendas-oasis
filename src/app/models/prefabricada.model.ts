@@ -8,5 +8,6 @@ export interface PrefabricadaModel {
     superficie: string;
     galeria: boolean;
     dormitorios: number;
+    isometria: string;
 
 }
