@@ -417,7 +417,7 @@ export class PrefabricadasService {
         "Techo de chapa acanalada aluminizada.",
       ],
       cielorrasos: [
-        "Cielorraso en placa de MDF, madera machimbrada o placa de yeso Durlock.",
+        "Madera machimbrada o placa de yeso Durlock.",
       ],
       instalaciones: [
         "Panel sanitario de agua fría y caliente.",
@@ -442,7 +442,7 @@ export class PrefabricadasService {
         "Techo de chapa acanalada aluminizada.",
       ],
       cielorrasos: [
-        "Cielorraso en placa de MDF, madera machimbrada o placa de yeso Durlock.",
+        "Madera machimbrada o placa de yeso Durlock.",
       ],
       instalaciones: [
         "Panel sanitario de agua fría y caliente.",
@@ -466,7 +466,7 @@ export class PrefabricadasService {
         "Techo de chapa acanalada aluminizada .",
       ],
       cielorrasos: [
-        "Cielorraso en placa de MDF, madera machimbrada o placa de yeso Durlock.",
+        "Madera machimbrada o placa de yeso Durlock.",
       ],
       instalaciones: [
         "Panel sanitario de agua fría y caliente.",
@@ -490,7 +490,7 @@ export class PrefabricadasService {
         "Techo de chapa acanalada aluminizada .",
       ],
       cielorrasos: [
-
+        "Madera machimbrada o placa de yeso Durlock.",
       ],
       instalaciones: [
         "Panel sanitario de agua fría y caliente.",
