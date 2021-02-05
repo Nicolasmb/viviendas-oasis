@@ -4,22 +4,29 @@
     </div>
   </div>
 <div class="container">
-    <h1 class="mb-4" style="font-weight: bold;">{{ prefabricada.nombre }}</h1>
+    <h1 class="mb-2" style="font-weight: bold;">{{ prefabricada.nombre }}</h1>
     <div class="row">
         <div class="col-md-6">
-            <h3 class="mb-5">Modelo: {{ prefabricada.id }}</h3>
+            <div class="container" style="height: 130px;">
+                <h3 class="mb-4">Modelo: {{ prefabricada.id }}</h3>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9 mb-5">
+                <iframe class="embed-responsive-item" [src]="prefabricada.video_url | safe: 'resourceUrl'" allowfullscreen></iframe>
+            </div>
             <a (click)="mostrarIsometrica()" style="cursor: pointer">
                 <img class="img-thumbnail" style="border-width: 0px;" src="./assets/images/isometricas/{{ prefabricada.isometria }}" alt="">
             </a>
         </div>
         <div class="col-md-6">
-            <h2>Especificaciones Técnicas</h2>
-            <p *ngIf=!prefabricada.galeria>
-                Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor y baño.
-            </p>
-            <p *ngIf=prefabricada.galeria>
-                Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y galería/cochera.
-            </p>
+            <div class="container" style="height: 130px;">
+                <h2>Especificaciones Técnicas</h2>
+                <p *ngIf=!prefabricada.galeria>
+                    Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor y baño.
+                </p>
+                <p *ngIf=prefabricada.galeria>
+                    Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y galería/cochera.
+                </p>
+            </div>
             <ul class="pl-0">
 
                 <!-- PAREDES EXTERIORES E INTERIORES -->
