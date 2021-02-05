@@ -9,5 +9,6 @@ export interface PrefabricadaModel {
     galeria: boolean;
     dormitorios: number;
     isometria: string;
+    video_url: string;
 
 }

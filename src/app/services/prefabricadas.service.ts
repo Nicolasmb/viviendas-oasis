@@ -21,7 +21,8 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png"
+      isometria: "36.png",
+      video_url: "https://www.youtube.com/watch?v=ESB8UcNCg10"
     },
     {
       id: "36-L",
@@ -30,7 +31,8 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png"
+      isometria: "36.png",
+      video_url: "https://www.youtube.com/watch?v=PNmGP9ELwlg"
     },
     {
       id: "36-S",
@@ -39,7 +41,8 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png"
+      isometria: "36.png",
+      video_url: "https://www.youtube.com/watch?v=JA1Pg1rfPyg" // No tiene
     },
     {
       id: "36-M",
@@ -48,7 +51,8 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png"
+      isometria: "36.png",
+      video_url: "https://www.youtube.com/watch?v=NL7l_dOWIdY",
     },
 
     // MODELOS 42
@@ -59,7 +63,8 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png"
+      isometria: "42.png",
+      video_url: "https://www.youtube.com/watch?v=7NCM5uWMBzg",
     },
     {
       id: "42-L",
@@ -68,7 +73,8 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png"
+      isometria: "42.png",
+      video_url: "https://www.youtube.com/watch?v=zbpmgWmNk1c",
     },
     {
       id: "42-S",
@@ -77,7 +83,8 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png"
+      isometria: "42.png",
+      video_url: "https://www.youtube.com/watch?v=vwpN-fglHa0",
     },
 
     // MODELOS 48
@@ -88,7 +95,8 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png"
+      isometria: "48.png",
+      video_url: "https://www.youtube.com/watch?v=e8Ifs2fwuTI"
     },
     {
       id: "48-L",
@@ -97,7 +105,8 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png"
+      isometria: "48.png",
+      video_url: "https://www.youtube.com/watch?v=3QDCk3fGKGc" 
     },
     {
       id: "48-S",
@@ -106,7 +115,8 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png"
+      isometria: "48.png",
+      video_url: "https://www.youtube.com/watch?v=vwpN-fglHa0"
     },
 
     // MODELOS 48G
@@ -117,7 +127,8 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png"
+      isometria: "48G.png",
+      video_url: "https://www.youtube.com/watch?v=hexnRynq0P8"
     },
     {
       id: "48G-L",
@@ -126,7 +137,8 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png"
+      isometria: "48G.png",
+      video_url: "https://www.youtube.com/watch?v=2_0WUd0GjPc"
     },
     {
       id: "48G-S",
@@ -135,7 +147,8 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png"
+      isometria: "48G.png",
+      video_url: "https://www.youtube.com/watch?v=4Qh3K2tpNCc"
     },
 
     // MODELOS 54
@@ -146,7 +159,8 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png"
+      isometria: "54.png",
+      video_url: "https://www.youtube.com/watch?v=NDCCYsJpMCQ"
     },
     {
       id: "54-L",
@@ -155,7 +169,8 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png"
+      isometria: "54.png",
+      video_url: "https://www.youtube.com/watch?v=-nImjUFh2aY"
     },
     {
       id: "54-S",
@@ -164,7 +179,8 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png"
+      isometria: "54.png",
+      video_url: "https://www.youtube.com/watch?v=wazT6hkVlSw"
     },
 
     
@@ -176,7 +192,8 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png"
+      isometria: "54G.png",
+      video_url: "https://www.youtube.com/watch?v=KcYXF-F7UdM"
     },
     {
       id: "54G-L",
@@ -185,7 +202,8 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png"
+      isometria: "54G.png",
+      video_url: "https://www.youtube.com/watch?v=r5qeo6kuIfg"
     },
     {
       id: "54G-S",
@@ -194,7 +212,8 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png"
+      isometria: "54G.png",
+      video_url: "https://www.youtube.com/watch?v=tA1mYsfb3g8"
     },
 
     // MODELOS 64-2H
@@ -205,7 +224,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png"
+      isometria: "64 (2H).png",
+      video_url: "https://www.youtube.com/watch?v=wOkrSAuWDXI  "
     },
     {
       id: "64-2H-L",
@@ -214,7 +234,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png"
+      isometria: "64 (2H).png",
+      video_url: "https://www.youtube.com/watch?v=HzqiBszYLdc"
     },
     {
       id: "64-2H-S",
@@ -223,7 +244,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png"
+      isometria: "64 (2H).png",
+      video_url: "https://www.youtube.com/watch?v=eIu3DdUy9Yw"
     },
 
     // MODELOS 64-3H
@@ -234,7 +256,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (3H).png"
+      isometria: "64 (3H).png",
+      video_url: "https://www.youtube.com/watch?v=SZo19weiY1k"
     },
     {
       id: "64-3H-L",
@@ -243,7 +266,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (3H).png"
+      isometria: "64 (3H).png",
+      video_url: "https://www.youtube.com/watch?v=35S7K059p1g"
     },
     {
       id: "64-3H-S",
@@ -252,7 +276,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (3H).png"
+      isometria: "64 (3H).png",
+      video_url: "https://www.youtube.com/watch?v=Yc2khVLovkM"
     },
 
      // MODELOS 64G-2H
@@ -263,7 +288,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png"
+      isometria: "64G (2H).png",
+      video_url: "https://www.youtube.com/watch?v=EkaHP8J86P0"
     },
     {
       id: "64G-2H-L",
@@ -272,7 +298,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png"
+      isometria: "64G (2H).png",
+      video_url: "https://www.youtube.com/watch?v=1M8DPOJ-AHU"
     },
     {
       id: "64G-2H-S",
@@ -281,7 +308,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png"
+      isometria: "64G (2H).png",
+      video_url: "https://www.youtube.com/watch?v=NUse8o5-usQ"
     },
 
     // MODELOS 64G-3H
@@ -292,7 +320,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png"
+      isometria: "64G (3H).png",
+      video_url: "https://www.youtube.com/watch?v=GgE1p91FWeE"
     },
     {
       id: "64G-3H-L",
@@ -301,7 +330,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png"
+      isometria: "64G (3H).png",
+      video_url: "https://www.youtube.com/watch?v=AKteKH9OcUc"
     },
     {
       id: "64G-3H-S",
@@ -310,7 +340,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png"
+      isometria: "64G (3H).png",
+      video_url: "https://www.youtube.com/watch?v=b055DZ9hyio"
     },
     {
       id: "64G-3H-M",
@@ -319,7 +350,8 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png"
+      isometria: "64G (3H).png",
+      video_url: "https://www.youtube.com/watch?v=WjTqBL7PpIA"
     },
 
      // MODELOS 81
@@ -330,7 +362,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png"
+      isometria: "81.png",
+      video_url: "https://www.youtube.com/watch?v=NSYbww4QARU"
     },
     {
       id: "81-L",
@@ -339,7 +372,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png"
+      isometria: "81.png",
+      video_url: "https://www.youtube.com/watch?v=mmvjqu7D6WI"
     },
     {
       id: "81-S",
@@ -348,7 +382,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png"
+      isometria: "81.png",
+      video_url: "https://www.youtube.com/watch?v=r5sAWTzgkT4"
     },
     {
       id: "81-M",
@@ -357,7 +392,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png"
+      isometria: "81.png",
+      video_url: "https://www.youtube.com/watch?v=v1y0NCMKjI4"
     },
 
     // MODELOS 81G
@@ -368,7 +404,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "81G.png"
+      isometria: "81G.png",
+      video_url: "https://www.youtube.com/watch?v=iZ2sYg9Xgys"
     },
     {
       id: "81G-L",
@@ -377,7 +414,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "81G.png"
+      isometria: "81G.png",
+      video_url: "https://www.youtube.com/watch?v=IVT0cMDvffA"
     },
     {
       id: "81G-S",
@@ -386,7 +424,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "81G.png"
+      isometria: "81G.png",
+      video_url: "https://www.youtube.com/watch?v=03V-0LIg4BM"
     },
     {
       id: "81G-M",
@@ -395,7 +434,8 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "81G.png"
+      isometria: "81G.png",
+      video_url: "https://www.youtube.com/watch?v=_TjdUvYKifU"
     },
   ]
   
