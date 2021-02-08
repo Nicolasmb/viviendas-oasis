@@ -22,6 +22,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "36.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10"
     },
     {
@@ -32,6 +33,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "36.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/PNmGP9ELwlg"
     },
     {
@@ -42,6 +44,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "36.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/JA1Pg1rfPyg" // No tiene
     },
     {
@@ -52,6 +55,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "36.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
     },
 
@@ -64,6 +68,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "42.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
     },
     {
@@ -74,6 +79,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "42.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/zbpmgWmNk1c",
     },
     {
@@ -84,6 +90,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "42.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/vwpN-fglHa0",
     },
 
@@ -96,6 +103,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "48.png",
+      planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/e8Ifs2fwuTI"
     },
     {
@@ -106,6 +114,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "48.png",
+      planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/3QDCk3fGKGc" 
     },
     {
@@ -116,6 +125,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "48.png",
+      planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/vwpN-fglHa0"
     },
 
@@ -128,6 +138,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "48G.png",
+      planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/hexnRynq0P8"
     },
     {
@@ -138,6 +149,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "48G.png",
+      planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/2_0WUd0GjPc"
     },
     {
@@ -148,6 +160,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "48G.png",
+      planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/4Qh3K2tpNCc"
     },
 
@@ -160,6 +173,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "54.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/NDCCYsJpMCQ"
     },
     {
@@ -170,6 +184,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "54.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/-nImjUFh2aY"
     },
     {
@@ -180,6 +195,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "54.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/wazT6hkVlSw"
     },
 
@@ -193,6 +209,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "54G.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/KcYXF-F7UdM"
     },
     {
@@ -203,6 +220,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "54G.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/r5qeo6kuIfg"
     },
     {
@@ -213,6 +231,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "54G.png",
+      planta: "",
       video_url: "https://www.youtube.com/embed/tA1mYsfb3g8"
     },
 
@@ -225,6 +244,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "64 (2H).png",
+      planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/wOkrSAuWDXI  "
     },
     {
@@ -235,6 +255,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "64 (2H).png",
+      planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/HzqiBszYLdc"
     },
     {
@@ -245,6 +266,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 2,
       isometria: "64 (2H).png",
+      planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/eIu3DdUy9Yw"
     },
 
@@ -257,6 +279,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "64 (3H).png",
+      planta: "64-3H.jpg",
       video_url: "https://www.youtube.com/embed/SZo19weiY1k"
     },
     {
@@ -267,6 +290,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "64 (3H).png",
+      planta: "64-3H.jpg",
       video_url: "https://www.youtube.com/embed/35S7K059p1g"
     },
     {
@@ -277,6 +301,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "64 (3H).png",
+      planta: "64-3H.jpg",
       video_url: "https://www.youtube.com/embed/Yc2khVLovkM"
     },
 
@@ -289,6 +314,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "64G (2H).png",
+      planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/EkaHP8J86P0"
     },
     {
@@ -299,6 +325,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "64G (2H).png",
+      planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/1M8DPOJ-AHU"
     },
     {
@@ -309,6 +336,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 2,
       isometria: "64G (2H).png",
+      planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/NUse8o5-usQ"
     },
 
@@ -321,6 +349,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "64G (3H).png",
+      planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/GgE1p91FWeE"
     },
     {
@@ -331,6 +360,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "64G (3H).png",
+      planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/AKteKH9OcUc"
     },
     {
@@ -341,6 +371,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "64G (3H).png",
+      planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/b055DZ9hyio"
     },
     {
@@ -351,6 +382,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "64G (3H).png",
+      planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/WjTqBL7PpIA"
     },
 
@@ -363,6 +395,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "81.png",
+      planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/NSYbww4QARU"
     },
     {
@@ -373,6 +406,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "81.png",
+      planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/mmvjqu7D6WI"
     },
     {
@@ -383,6 +417,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "81.png",
+      planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/r5sAWTzgkT4"
     },
     {
@@ -393,6 +428,7 @@ export class PrefabricadasService {
       galeria: false,
       dormitorios: 3,
       isometria: "81.png",
+      planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
     },
 
@@ -405,6 +441,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "81G.png",
+      planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/iZ2sYg9Xgys"
     },
     {
@@ -415,6 +452,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "81G.png",
+      planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/IVT0cMDvffA"
     },
     {
@@ -425,6 +463,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "81G.png",
+      planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/03V-0LIg4BM"
     },
     {
@@ -435,6 +474,7 @@ export class PrefabricadasService {
       galeria: true,
       dormitorios: 3,
       isometria: "81G.png",
+      planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
     },
   ]

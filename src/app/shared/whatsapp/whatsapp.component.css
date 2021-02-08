@@ -1,0 +1,27 @@
+
+.float{
+	position:fixed;
+	display: flex;
+	/* Alinea el contenido verticalmente */
+	align-items: center;
+	/* Alinea el contenido horizantalmente */
+	justify-content: center;
+	width:75px;
+	height:75px;
+	bottom:30px;
+	right:30px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:100px;
+	text-align:center;
+    font-size: 45px;
+	box-shadow: 2px 2px 3px rgb(0, 0, 0, 0.25);
+	transition: all 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	z-index:100;
+	opacity: 0.95;
+}
+
+.float:hover {
+	text-decoration:none;
+	transform: scale(1.25);
+}

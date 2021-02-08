@@ -15,6 +15,8 @@ export class CardComponent implements OnInit {
   // La propiedad de entrada está vinculada a una propiedad DOM en la plantilla.
   @Input() prefabricada: PrefabricadaModel;
 
+  @Input() precio: boolean;
+
   // Decorador que marca un campo de clase como una propiedad de salida y proporciona
   // metadatos de configuración. La propiedad DOM vinculada a la propiedad de salida 
   // se actualiza automáticamente durante la detección de cambios.

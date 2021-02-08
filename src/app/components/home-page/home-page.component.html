@@ -1,68 +1,199 @@
 <app-carousel></app-carousel>
 
-
-<div class="album py-5">
+<div class="album pt-5">
   <div class="container">
-
     <div class="row">
-        <div class="col-md-4" *ngFor="let prefabricada of prefabricadas">
-            <app-card [prefabricada]="prefabricada"></app-card>
+        <div class="col-md-6 align-content-between">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/JA1Pg1rfPyg?autoplay=1' | safe: 'resourceUrl'" allowfullscreen></iframe>
+          </div>
         </div>
-  </div>
-</div>
-
-<!-- BANNER LLAMATIVO -->
-<div class="container bg-danger text-white">
-  <div class="d-flex align-items-center" style="height: 150px">
-    <div class="col-12 text-center">
-      <h1>BANNER LLAMATIVO</h1>
-      <p>Contacto telefónico</p>
+        <div class="col-md-6 align-content-between">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/Fstt4FuRrqI' | safe: 'resourceUrl'" allowfullscreen></iframe>
+          </div>
+        </div>
     </div>
   </div>
 </div>
 
-<!-- NUESTRAS OFICINAS Y FABRICA -->
-<section>
-  <div class="container py-5">
-    <div class="row mt-4">
-      <div class="col-md-6 text-center">
-        <h4>NUESTRAS OFICINAS</h4> 
-        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras Oficinas">
+<!-- SECCION PROMOCIONES -->
+<section id="promociones">
+    <!-- CUATRO TARJETAS PRINCIPALES -->
+    <div class="album py-5">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-content-between" *ngFor="let i of array(0, 3)">
+                <app-card [precio]="true" [prefabricada]="prefabricadas[i]"></app-card>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- BANNER LLAMATIVO 1-->
+<div class="container">
+  <div class="row">
+    <img class="img-fluid" src="./assets/images/banners/banner_familia.jpg" alt="">
+  </div>
+</div>
+
+<!-- SECCION: MODELOS DE CASAS -->
+<section id="modelos">
+  <!-- PRIMERAS NUEVE TARJETAS -->
+  <div class="album py-5">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4" *ngFor="let i of array(4, 12)">
+              <app-card [precio]="false" [prefabricada]="prefabricadas[i]"></app-card>
+          </div>
       </div>
+    </div>
+  </div>
   
-      <div class="col-md-6 text-center">
-        <h4>NUESTRAS FABRICA</h4>
-        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras fabricas">
+  <!-- BANNER LLAMATIVO 2 -->
+  <div class="container">
+    <div class="row">
+      <img class="img-fluid" src="./assets/images/banners/banner_call.jpg" alt="">
+    </div>
+  </div>
+  
+  <!-- SEGUNDAS NUEVE TARJETAS -->
+  <div class="album py-5">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4" *ngFor="let i of array(13, 21)">
+              <app-card [precio]="false" [prefabricada]="prefabricadas[i]"></app-card>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- BANNER LLAMATIVO 3 -->
+  <div class="container">
+    <div class="row">
+      <img class="img-fluid" src="./assets/images/banners/banner_mujer.jpg" alt="">
+    </div>
+  </div>
+  
+  <!-- TERCERAS NUEVE TARJETAS -->
+  <div class="album py-5">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4" *ngFor="let i of array(22, 30)">
+              <app-card [precio]="false" [prefabricada]="prefabricadas[i]"></app-card>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- BANNER LLAMATIVO 4 -->
+  <div class="container">
+    <div class="row">
+      <img class="img-fluid" src="./assets/images/banners/banner_fabrica.jpg" alt="">
+    </div>
+  </div>
+  
+  <!-- CUARTAS NUEVE TARJETAS -->
+  <div class="album py-5">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4" *ngFor="let i of array(31, 39)">
+              <app-card [precio]="false" [prefabricada]="prefabricadas[i]"></app-card>
+          </div>
       </div>
     </div>
   </div>
 </section>
 
 
-<div class="jumbotron mt-5 pt-4" style="margin-bottom:0">
-  <div class="container pb-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h5 class="pb-3">Acerca de Viviendas Oasis</h5>
-        <!-- TODO: NO FUNCIONA EN LA VERSION MOVIL PONER UNA ALTURA DE 130 PX. -->
-        <div class="container px-0" style="height: 130px;">
-          <p class="text-justify mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Duis non vehicula arcu. Cras viverra venenatis molestie. 
-            Class aptent taciti sociosqu ad litora torquent per conubia 
-            nostra, per inceptos himenaeos. Integer auctor sagittis porttitor. 
-            Praesent. 
-          </p> 
-        </div>
-        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras Oficinas">
-      </div>
+<!-- NUESTRAS OFICINAS Y FABRICA -->
+<section id="empresa" class="pt-5">
   
-      <div class="col-md-6 text-center">
-        <h5 class="pb-3">Contacto</h5>
-        <div class="container px-0" style="height: 130px;"></div>
-        <img class="img-fluid" src="https://via.placeholder.com/800x500" alt="Nuestras fabricas">
-      </div>
+    <div class="jumbotron pt-5" style="margin-bottom:0">
+        <div class="container pb-5">
+            <div class="row mb-4">
+                <div class="container">
+                    <h2>Acerca de Viviendas Oasis</h2>
+                    <p class="text-justify lead">Somos una empresa con más de 30 años en el mercado de las viviendas industrializadas, 
+                    lo que nos convierte en una de las pioneras en el país siendo un símbolo de confianza y calidad para nuestros 
+                    clientes en todo el país.
+                    </p> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 text-center">
+                    <h4 class="text-left">Nuestras Sucursales</h4> 
+                    <img class="img-fluid sombra" src="./assets/images/oficinas/oficinas_5.jpg" alt="Nuestras Sucuarsales">
+                </div>
+                <div class="col-6 text-center">
+                    <h4 class="text-left">Nuestra Fábrica</h4>
+                    <div class="carousel slide" id="fabrica" data-ride="carousel">
+                        <div class="carousel-inner sombra">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" [src]="url_imagenes_fabrica[0]" alt="Nuestras fabricas">
+                            </div>
+                            <div class="carousel-item" *ngFor="let img_fabrica of url_imagenes_fabrica | slice:1, let i=index">
+                                <img class="img-fluid" [src]="img_fabrica" alt="Nuestras fabricas">
+                            </div>
+                        </div>
+                        <!-- Control Izquierdo y Control Derecho -->
+                        <a class="carousel-control-prev" href="#fabrica" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#fabrica" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9 sombra">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.8855424806684!2d-58.67081048435756!3d-34.5564532625068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbc6a79fbf391%3A0xe65084cb895f6177!2sAv.%20Pres.%20Arturo%20Umberto%20Illia%20902%2C%20B1661AAW%20Bella%20Vista%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056924512!5m2!1ses!2sar"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9 sombra">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0677962546574!2d-58.54901348435715!3d-34.577151063600745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb77ba9de4537%3A0x9a06b6dc275a4380!2sAv.%20101%20Dr.%20Ricardo%20Balb%C3%ADn%202498%2C%20B1650%20Villa%20Lynch%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056794503!5m2!1ses!2sar"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9 sombra">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7716091602556!2d-58.7645557843556!3d-34.635211466673134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95bd3da003a3%3A0xd3050d59b1552ae8!2sColectora%20Sur%20Acceso%20Oeste%202569%2C%20Paso%20del%20Rey%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056897419!5m2!1ses!2sar"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9 sombra">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5715425728376!2d-58.698342184354935!3d-34.665521968278796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf80dce90779%3A0xfc9867b63d841d68!2sEsteban%20Echeverr%C3%ADa%20108%2C%20B1718GAO%20San%20Antonio%20de%20Padua%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056842448!5m2!1ses!2sar"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="embed-responsive embed-responsive-21by9 sombra">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.7763265310873!2d-58.41016058435167!3d-34.78640577469514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd302e374f8f9%3A0xea3bee81fc96cd50!2sAv.%20Pres.%20Hip%C3%B3lito%20Yrigoyen%2011009%2C%20B1833BKB%20Villa%20Turdera%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056873211!5m2!1ses!2sar"></iframe>
+                    </div>
+                </div>    
+            </div>
+        </div>
     </div>
-  </div>
+</section>
+
+<div class="footer">
+    <div class="container">
+        <p class="m-0">
+            © Viviendas Oasis 2021  |  Todos los derechos reservados 
+        </p>
+    </div>
 </div>
 
 
+      
+      

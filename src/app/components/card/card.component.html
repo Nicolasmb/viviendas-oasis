@@ -1,4 +1,5 @@
 <div class="card" style="position: relative;">
+    <!-- IMAGEN -->
     <div class="contenedor-imagen" style="border-color: black;">
         <img class="image" 
              alt="Thumbnail" 
@@ -6,7 +7,8 @@
              src="./assets/images/fachadas/{{ prefabricada.id }}.jpg"/>
     </div>
     <div class="container px-0">
-        <div class="d-flex my-2 flex-wrap px-3 align-items-center">
+        <!-- CONTENEDOR PRECIO Y EMOJIS -->
+        <div *ngIf="this.precio" class="d-flex my-2 flex-wrap px-3 align-items-center">
             <span class="texto-precio">$750.000</span>
             <div class="flex-grow-1"></div>
             <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
@@ -16,7 +18,23 @@
             <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
             <span class="texto-icono">1</span>
         </div>
+        <div *ngIf="!this.precio" class="d-flex my-2 flex-wrap px-3 justify-content-center">
+            <div class="container-small mx-2">
+                <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
+                <span class="texto-icono mr-2">{{ prefabricada.superficie }}</span>
+            </div>
+            <div class="container-small mx-2">
+                <img class="iconos-caracteristicas" src="./assets/images/dormitorios.png"/>
+                <span class="texto-icono mr-2">{{ prefabricada.dormitorios }}</span>
+            </div>
+            <div class="container-small mx-2">
+                <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
+                <span class="texto-icono">1</span>
+            </div>
+        </div>
+        <!-- LINEA DIVISORIA -->
         <hr class="m-0">
+        <!-- CONTENEDOR DE DESCRIPCIÓN -->
         <div class="d-flex justify-content-between">
             <span class="badge badge-warning">{{prefabricada.tipo}}</span>
             <span class="badge badge-dark align-self-start">Viviendas Oasis</span>

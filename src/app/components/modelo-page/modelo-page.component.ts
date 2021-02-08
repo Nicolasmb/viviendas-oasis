@@ -37,13 +37,13 @@ export class ModeloPageComponent {
     }
   }
 
-  mostrarIsometrica() {
+  mostrarIsometrica(url: string) {
     Swal.fire({
       // imageUrl: `./assets/images/isometricas/${this.prefabricada.isometria}`,
       // imageWidth: 2400,
       showCloseButton: false,
       showConfirmButton: false,
-      imageUrl:`./assets/images/isometricas/${this.prefabricada.isometria}`,
+      imageUrl: url,
       // imageHeight: 800,
       width: '1000px',
       background: '#ffff',

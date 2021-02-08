@@ -1,24 +1,56 @@
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <img src="./assets/images/banner3.jpeg">
+
+<div class="container mb-4" style="padding: 73px 0 0 0">
+    <div class="row">
+        <img class="img-fluid" src="./assets/images/banners/banner_casa.jpg">
     </div>
-  </div>
+</div>
+
 <div class="container">
+    <!-- TITULO DEL TIPO DE PREFABRICADA -->
     <h1 class="mb-2" style="font-weight: bold;">{{ prefabricada.nombre }}</h1>
     <div class="row">
         <div class="col-md-6">
-            <div class="container" style="height: 130px;">
+            <!-- TITULO DEL MODELO -->
+            <div class="container" style="height: 90px;">
                 <h3 class="mb-4">Modelo: {{ prefabricada.id }}</h3>
             </div>
+            <!-- VIDEO YOUTUBE -->
             <div class="embed-responsive embed-responsive-16by9 mb-5">
                 <iframe class="embed-responsive-item" [src]="prefabricada.video_url | safe: 'resourceUrl'" allowfullscreen></iframe>
             </div>
-            <a (click)="mostrarIsometrica()" style="cursor: pointer">
-                <img class="img-thumbnail" style="border-width: 0px;" src="./assets/images/isometricas/{{ prefabricada.isometria }}" alt="">
-            </a>
+            <!-- CAROUSEL -->
+            <div *ngIf="prefabricada.planta !== ''" id="plantas" class="carousel slide mb-5">
+                <!-- Diapositivas -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a (click)="mostrarIsometrica('./assets/images/isometricas/' + prefabricada.isometria)" style="cursor: pointer">
+                            <img class="img-fluid" style="border-width: 0px;" src="./assets/images/isometricas/{{ prefabricada.isometria }}" alt="">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a (click)="mostrarIsometrica('./assets/images/plantas/' + prefabricada.planta)" style="cursor: pointer">
+                            <img class="img-fluid" style="border-width: 0px;" src="./assets/images/plantas/{{ prefabricada.planta }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- Control Izquierdo y Control Derecho -->
+                <a class="carousel-control-prev" href="#plantas" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
+                </a>
+                <a class="carousel-control-next" href="#plantas" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
+                </a>
+            </div>
+            <!-- IMAGEN SIMPLE -->
+            <div *ngIf="prefabricada.planta == ''" class="mb-5">
+                <a (click)="mostrarIsometrica('./assets/images/isometricas/' + prefabricada.isometria)" style="cursor: pointer">
+                    <img class="img-fluid" height="400px" style="border-width: 0px;" src="./assets/images/isometricas/{{ prefabricada.isometria }}" alt="">
+                </a>       
+            </div>
         </div>
+        <!-- ESPECIFICACIONES TECNICAS -->
         <div class="col-md-6">
-            <div class="container" style="height: 130px;">
+            <div class="container" style="height: 90px;">
                 <h2>Especificaciones Técnicas</h2>
                 <p *ngIf=!prefabricada.galeria>
                     Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor y baño.

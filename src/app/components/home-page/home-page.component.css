@@ -1,0 +1,16 @@
+
+.footer {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* bottom: 0; */
+    /* width: 100%; */
+    background-color: #292B33;
+    color: white;
+    text-align: left;
+}
+
+.sombra {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 15px 0 rgba(0, 0, 0, 0.15);
+}

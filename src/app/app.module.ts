@@ -4,19 +4,22 @@ import { NgModule } from '@angular/core';
 // El BrowserModule permite que la aplicación corrar en los navegadores.
 // Se importa de la carpeta Angular.
 import { BrowserModule } from '@angular/platform-browser';
-import { SafePipeModule } from 'safe-pipe';
 // Se importa el módulo de ruteo.
 import { AppRoutingModule } from './app-routing.module';
 // Se importa el componenete AppComponent.
 import { AppComponent } from './app.component';
 
-// COMPONENTES
+// MODULOS DE TERCERES
+// Se importa el módulo para el pipe que transforma las url en seguras.
+import { SafePipeModule } from 'safe-pipe';
+
+// COMPONENTES PERSONALES
 import { CardComponent } from './components/card/card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { ModeloPageComponent } from './components/modelo-page/modelo-page.component';;
 
-// MODULOS
+// MODULOS PERSONALES
 import { SharedModule } from './shared/shared.module';
 
 
@@ -42,7 +45,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    SafePipeModule
+    SafePipeModule,
   ],
   providers: [],
   // Con el metadato "bootstrap" (arranque) se define el componente raíz que Angular

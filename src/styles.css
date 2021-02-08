@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
+html {
+    /* Se agrega el efecto de scroll sueva cuando se navegue automáticamente a las diferentes secciones */
+    scroll-behavior: smooth;
+}
+
+
 .logo {
     margin: 0 30px 0 20px;
     padding: 10px 0px; 

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'viviendas-oasis';
+  public telefono = "541157292823";
+  public mensaje = "Hola!"
 }
