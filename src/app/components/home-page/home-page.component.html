@@ -112,7 +112,7 @@
 <section id="empresa" class="pt-5">
   
     <div class="jumbotron pt-5" style="margin-bottom:0">
-        <div class="container pb-5">
+        <div class="container mb-5">
             <div class="row mb-4">
                 <div class="container">
                     <h2>Acerca de Viviendas Oasis</h2>
@@ -122,15 +122,33 @@
                     </p> 
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-1">
+                <!-- IMAGENES DE LAS SUCURSALES -->
                 <div class="col-6 text-center">
                     <h4 class="text-left">Nuestras Sucursales</h4> 
-                    <img class="img-fluid sombra" src="./assets/images/oficinas/oficinas_5.jpg" alt="Nuestras Sucuarsales">
+                    <div class="carousel slide" id="sucursales" data-ride="carousel">
+                        <div class="carousel-inner sombra" style="height: 360px;">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" [src]="url_imagenes_sucursales[0]" alt="Nuestras sucursales">
+                            </div>
+                            <div class="carousel-item" *ngFor="let img_sucursal of url_imagenes_sucursales | slice:1, let i=index">
+                                <img class="img-fluid" [src]="img_sucursal" alt="Nuestras sucursales">
+                            </div>
+                        </div>
+                        <!-- Control Izquierdo y Control Derecho -->
+                        <a class="carousel-control-prev" href="#sucursales" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#sucursales" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
+                        </a>
+                    </div>
                 </div>
+                <!-- IMAGENES DE LA FABRICA -->
                 <div class="col-6 text-center">
                     <h4 class="text-left">Nuestra Fábrica</h4>
                     <div class="carousel slide" id="fabrica" data-ride="carousel">
-                        <div class="carousel-inner sombra">
+                        <div class="carousel-inner sombra" style="height: 360px;">
                             <div class="carousel-item active">
                                 <img class="img-fluid" [src]="url_imagenes_fabrica[0]" alt="Nuestras fabricas">
                             </div>
@@ -151,7 +169,7 @@
         </div>
     
         <div class="container">
-            <div class="row my-5">
+            <div class="row mb-5 mt-2">
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9 sombra">
                         <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.8855424806684!2d-58.67081048435756!3d-34.5564532625068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbc6a79fbf391%3A0xe65084cb895f6177!2sAv.%20Pres.%20Arturo%20Umberto%20Illia%20902%2C%20B1661AAW%20Bella%20Vista%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056924512!5m2!1ses!2sar"></iframe>

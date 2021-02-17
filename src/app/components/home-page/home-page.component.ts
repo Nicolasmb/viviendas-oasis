@@ -4,7 +4,8 @@ import { PrefabricadaModel } from '../../models/prefabricada.model';
 import { PrefabricadasService } from '../../services/prefabricadas.service';
 
 // Se define un arreglo de constantes de las imagenes de las fabricas
-const images_fabrica: string[] = ["fabrica_1.jpg", "fabrica_2.jpg", "fabrica_3.jpg", "fabrica_4.jpg"];
+const images_fabrica:    string[] = ["fabrica_1.jpg", "fabrica_2.jpg", "fabrica_3.jpg", "fabrica_4.jpg"];
+const imagenes_oficinas: string[] = ["oficinas_1.jpg", "oficinas_3.jpg", "oficinas_4.jpg", "oficinas_7.jpg", "oficinas_8.jpg"];
 
 @Component({
   selector: 'app-home-page',
@@ -14,7 +15,8 @@ const images_fabrica: string[] = ["fabrica_1.jpg", "fabrica_2.jpg", "fabrica_3.j
 export class HomePageComponent implements OnInit {
 
   public prefabricadas: PrefabricadaModel[] = [];
-  public url_imagenes_fabrica = images_fabrica.map(imagen => "./assets/images/fabrica/" + imagen);
+  public url_imagenes_fabrica   = images_fabrica.map(imagen => "./assets/images/fabrica/" + imagen);
+  public url_imagenes_sucursales = imagenes_oficinas.map(imagen => "./assets/images/oficinas/" + imagen);
 
   // Se inyectan en la presente clase los servicios PrefabricadasService,
   // el cual se encargará de proveer los datos de cada casa, y el servicio
