@@ -8,16 +8,18 @@
     </div>
     <div class="container px-0">
         <!-- CONTENEDOR PRECIO Y EMOJIS -->
+        <!-- Opción con precios pero sin metros cuadrados -->
         <div *ngIf="this.precio" class="d-flex my-2 flex-wrap px-3 align-items-center">
             <span class="texto-precio">$750.000</span>
             <div class="flex-grow-1"></div>
-            <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
-            <span class="texto-icono mr-2">{{ prefabricada.superficie }}</span>
+            <!-- <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
+            <span class="texto-icono mr-2">{{ prefabricada.superficie }}</span> -->
             <img class="iconos-caracteristicas" src="./assets/images/dormitorios.png"/>
             <span class="texto-icono mr-2">{{ prefabricada.dormitorios }}</span>
             <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
             <span class="texto-icono">1</span>
         </div>
+        <!-- Opción sin precio pero con metros cuadrados -->
         <div *ngIf="!this.precio" class="d-flex my-2 flex-wrap px-3 justify-content-center">
             <div class="container-small mx-2">
                 <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>

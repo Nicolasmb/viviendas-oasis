@@ -50,13 +50,13 @@
         </div>
         <!-- ESPECIFICACIONES TECNICAS -->
         <div class="col-md-6">
-            <div class="container" style="height: 90px;">
+            <div class="container px-0" style="height: 90px;">
                 <h2>Especificaciones Técnicas</h2>
                 <p *ngIf=!prefabricada.galeria>
                     Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor y baño.
                 </p>
                 <p *ngIf=prefabricada.galeria>
-                    Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y galería/cochera.
+                    Vivienda de {{prefabricada.superficie}} con {{ numeroAtexto(prefabricada.dormitorios) }} dormitorios, cocina comedor, baño y cochera.
                 </p>
             </div>
             <ul class="pl-0">
@@ -94,3 +94,4 @@
         </div>
     </div>
 </div>
+<app-contact-form></app-contact-form>
