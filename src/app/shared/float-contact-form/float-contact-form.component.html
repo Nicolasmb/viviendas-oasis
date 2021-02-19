@@ -1,5 +1,5 @@
 
-<div class="card">
+<div class="card sombra float">
 
     <!-- FORMULARIO -->
     <!-- ngForm es una directiva que crea un objeto de tipo FormGroup y lo vincula a un formulario 
@@ -12,7 +12,7 @@
 
         <!-- CUERPO DE LA TARJETA -->
         <div class="card-body px-4 py-0">
-            <h2 class="p-0 my-4 text-center">Quiero recibir mas información!</h2>
+            <h3 class="p-0 my-4 text-center">Quiero recibir mas información!</h3>
             <!-- Aca se hace uso de la variable de plantilla del FormControl "var_email", la variable con nombre #var_email.
                 Se hace un binding de propiedad asignando el valor de la variable #var_email a la propiedad [class.has-danger]-->
             <div class="form-group mt-2 mb-4 text-left" [class.has-danger]="var_email.invalid && var_email.touched">
@@ -57,7 +57,7 @@
                 <textarea  
                         class="form-control" 
                         type="text"
-                        rows="4"
+                        rows="2"
                         name="var_mensaje" 
                         placeholder="Mensaje" 
                         [(ngModel)]="mensaje" 
@@ -69,7 +69,7 @@
             <!-- Si se quisiera deshabilitar el botón segun el formulario sea válido o no habría que hacer binding del
                 atributo "disabled" del boton, esto es: [disabled]="f.invalid", de esta forma se estaría haciendo uso de
                 la variable de plantilla que contiene una referencia al objeto FormGroup asociado al formulario -->
-            <button class="btn btn-block pt-2 mb-5" type="submit">Consultar ahora!</button>
+            <button class="btn btn-block btn-warning pt-2 mb-5" type="submit">Mas Información!</button>
 
         </div>
         <!-- FIN DEL CUERPO DE LA TARJETA -->

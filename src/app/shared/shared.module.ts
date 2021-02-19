@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms'
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
+import { FloatContactFormComponent } from './float-contact-form/float-contact-form.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
@@ -15,6 +16,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     NavbarComponent,
     FooterComponent,
     WhatsappComponent,
+    FloatContactFormComponent,
     ContactFormComponent,
   ],
   imports: [
@@ -25,6 +27,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     NavbarComponent,
     FooterComponent,
     WhatsappComponent,
+    FloatContactFormComponent,
     ContactFormComponent
   ]
 })

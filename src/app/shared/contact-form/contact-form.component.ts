@@ -12,7 +12,6 @@ export class ContactFormComponent implements OnInit {
   telefono: string;
   mensaje:  string;
 
-
   constructor() { }
 
   ngOnInit(): void {

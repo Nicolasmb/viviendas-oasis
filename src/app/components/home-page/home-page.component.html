@@ -108,8 +108,8 @@
 </section>
 
 <!-- VIDEO DESPIECE DE VIVIENDA -->
-<div class="album">
-    <div class="container">
+<div class="album pb-5">
+    <div class="container pb-5">
       <div class="row">
           <div class="col-md-12 align-content-between">
             <div class="embed-responsive embed-responsive-16by9 sombra">
@@ -120,110 +120,113 @@
     </div>
   </div>
 
-
-<!-- NUESTRAS OFICINAS Y FABRICA -->
-<section id="empresa" class="pt-5">
   
-    <div class="jumbotron pt-5" style="margin-bottom:0">
-        <div class="container mb-5">
-            <div class="row mb-4">
-                <div class="container">
-                    <h2>Acerca de Viviendas Oasis</h2>
-                    <p class="text-justify lead">Somos una empresa con más de 30 años en el mercado de las viviendas industrializadas, 
-                    lo que nos convierte en una de las pioneras en el país siendo un símbolo de confianza y calidad para nuestros 
-                    clientes en todo el país.
-                    </p> 
-                </div>
-            </div>
-            <div class="row mb-1">
-                <!-- IMAGENES DE LAS SUCURSALES -->
-                <div class="col-6 text-center">
-                    <h4 class="text-left">Nuestras Sucursales</h4> 
-                    <div class="carousel slide" id="sucursales" data-ride="carousel">
-                        <div class="carousel-inner sombra" style="height: 360px;">
-                            <div class="carousel-item active">
-                                <img class="img-fluid" [src]="url_imagenes_sucursales[0]" alt="Nuestras sucursales">
-                            </div>
-                            <div class="carousel-item" *ngFor="let img_sucursal of url_imagenes_sucursales | slice:1, let i=index">
-                                <img class="img-fluid" [src]="img_sucursal" alt="Nuestras sucursales">
-                            </div>
-                        </div>
-                        <!-- Control Izquierdo y Control Derecho -->
-                        <a class="carousel-control-prev" href="#sucursales" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#sucursales" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- IMAGENES DE LA FABRICA -->
-                <div class="col-6 text-center">
-                    <h4 class="text-left">Nuestra Fábrica</h4>
-                    <div class="carousel slide" id="fabrica" data-ride="carousel">
-                        <div class="carousel-inner sombra" style="height: 360px;">
-                            <div class="carousel-item active">
-                                <img class="img-fluid" [src]="url_imagenes_fabrica[0]" alt="Nuestras fabricas">
-                            </div>
-                            <div class="carousel-item" *ngFor="let img_fabrica of url_imagenes_fabrica | slice:1, let i=index">
-                                <img class="img-fluid" [src]="img_fabrica" alt="Nuestras fabricas">
-                            </div>
-                        </div>
-                        <!-- Control Izquierdo y Control Derecho -->
-                        <a class="carousel-control-prev" href="#fabrica" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#fabrica" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="container">
-            <div class="row mb-5 mt-2">
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9 sombra">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.8855424806684!2d-58.67081048435756!3d-34.5564532625068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbc6a79fbf391%3A0xe65084cb895f6177!2sAv.%20Pres.%20Arturo%20Umberto%20Illia%20902%2C%20B1661AAW%20Bella%20Vista%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056924512!5m2!1ses!2sar"></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9 sombra">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0677962546574!2d-58.54901348435715!3d-34.577151063600745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb77ba9de4537%3A0x9a06b6dc275a4380!2sAv.%20101%20Dr.%20Ricardo%20Balb%C3%ADn%202498%2C%20B1650%20Villa%20Lynch%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056794503!5m2!1ses!2sar"></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-5">
-                    <div class="col-md-6">
-                        <div class="embed-responsive embed-responsive-16by9 sombra">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7716091602556!2d-58.7645557843556!3d-34.635211466673134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95bd3da003a3%3A0xd3050d59b1552ae8!2sColectora%20Sur%20Acceso%20Oeste%202569%2C%20Paso%20del%20Rey%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056897419!5m2!1ses!2sar"></iframe>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9 sombra">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5715425728376!2d-58.698342184354935!3d-34.665521968278796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf80dce90779%3A0xfc9867b63d841d68!2sEsteban%20Echeverr%C3%ADa%20108%2C%20B1718GAO%20San%20Antonio%20de%20Padua%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056842448!5m2!1ses!2sar"></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="embed-responsive embed-responsive-21by9 sombra">
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.7763265310873!2d-58.41016058435167!3d-34.78640577469514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd302e374f8f9%3A0xea3bee81fc96cd50!2sAv.%20Pres.%20Hip%C3%B3lito%20Yrigoyen%2011009%2C%20B1833BKB%20Villa%20Turdera%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056873211!5m2!1ses!2sar"></iframe>
-                    </div>
-                </div>    
-            </div>
-        </div>
-    </div>
-</section>
+  
+<div class="jumbotron pt-2" style="margin-bottom:0">
 
-<div class="footer">
-    <div class="container">
-        <p class="m-0">
-            © Viviendas Oasis 2021  |  Todos los derechos reservados 
-        </p>
+  <!-- CONTACTO -->
+  <section id="contacto" class="pt-5">
+    <!-- Formulario de contacto -->
+      <div class="container sombra px-0 mt-5" >
+              <app-contact-form></app-contact-form>
+      </div>
+  </section>
+    
+  <!-- NUESTRAS OFICINAS Y FABRICA -->
+  <section id="empresa" class="pt-2">
+    <div class="container my-5">
+        <div class="row">
+            <div class="container pt-5">
+                <h2>Acerca de Viviendas Oasis</h2>
+                <p class="text-justify lead">Somos una empresa con más de 30 años en el mercado de las viviendas industrializadas, 
+                lo que nos convierte en una de las pioneras en el país siendo un símbolo de confianza y calidad para nuestros 
+                clientes en todo el país.
+                </p> 
+            </div>
+        </div>
+        <div class="row mb-1">
+            <!-- IMAGENES DE LAS SUCURSALES -->
+            <div class="col-6 text-center">
+                <h4 class="text-left">Nuestras Sucursales</h4> 
+                <div class="carousel slide" id="sucursales" data-ride="carousel">
+                    <div class="carousel-inner sombra" style="height: 360px;">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" [src]="url_imagenes_sucursales[0]" alt="Nuestras sucursales">
+                        </div>
+                        <div class="carousel-item" *ngFor="let img_sucursal of url_imagenes_sucursales | slice:1, let i=index">
+                            <img class="img-fluid" [src]="img_sucursal" alt="Nuestras sucursales">
+                        </div>
+                    </div>
+                    <!-- Control Izquierdo y Control Derecho -->
+                    <a class="carousel-control-prev" href="#sucursales" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#sucursales" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
+                    </a>
+                </div>
+            </div>
+            <!-- IMAGENES DE LA FABRICA -->
+            <div class="col-6 text-center">
+                <h4 class="text-left">Nuestra Fábrica</h4>
+                <div class="carousel slide" id="fabrica" data-ride="carousel">
+                    <div class="carousel-inner sombra" style="height: 360px;">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" [src]="url_imagenes_fabrica[0]" alt="Nuestras fabricas">
+                        </div>
+                        <div class="carousel-item" *ngFor="let img_fabrica of url_imagenes_fabrica | slice:1, let i=index">
+                            <img class="img-fluid" [src]="img_fabrica" alt="Nuestras fabricas">
+                        </div>
+                    </div>
+                    <!-- Control Izquierdo y Control Derecho -->
+                    <a class="carousel-control-prev" href="#fabrica" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#fabrica" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row mb-5 mt-2">
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9 sombra">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.8855424806684!2d-58.67081048435756!3d-34.5564532625068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbc6a79fbf391%3A0xe65084cb895f6177!2sAv.%20Pres.%20Arturo%20Umberto%20Illia%20902%2C%20B1661AAW%20Bella%20Vista%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056924512!5m2!1ses!2sar"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9 sombra">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0677962546574!2d-58.54901348435715!3d-34.577151063600745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb77ba9de4537%3A0x9a06b6dc275a4380!2sAv.%20101%20Dr.%20Ricardo%20Balb%C3%ADn%202498%2C%20B1650%20Villa%20Lynch%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056794503!5m2!1ses!2sar"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9 sombra">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7716091602556!2d-58.7645557843556!3d-34.635211466673134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95bd3da003a3%3A0xd3050d59b1552ae8!2sColectora%20Sur%20Acceso%20Oeste%202569%2C%20Paso%20del%20Rey%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056897419!5m2!1ses!2sar"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9 sombra">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5715425728376!2d-58.698342184354935!3d-34.665521968278796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf80dce90779%3A0xfc9867b63d841d68!2sEsteban%20Echeverr%C3%ADa%20108%2C%20B1718GAO%20San%20Antonio%20de%20Padua%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056842448!5m2!1ses!2sar"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-21by9 sombra">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.7763265310873!2d-58.41016058435167!3d-34.78640577469514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd302e374f8f9%3A0xea3bee81fc96cd50!2sAv.%20Pres.%20Hip%C3%B3lito%20Yrigoyen%2011009%2C%20B1833BKB%20Villa%20Turdera%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582056873211!5m2!1ses!2sar"></iframe>
+                </div>
+            </div>    
+        </div>
+    </div>
+  </section>
 </div>
+
+<app-footer></app-footer>
 
 
       

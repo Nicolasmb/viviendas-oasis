@@ -1,21 +1,16 @@
-.float{
-	position: fixed;
-	display: flex;
-	/* Alinea el contenido verticalmente */
-	align-items: center;
-	/* Alinea el contenido horizantalmente */
-	/* justify-content: left; */
-	bottom: 120px;
-	right: 30px;
-    width: 400px;
-	border-radius:20px;
-	text-align: center;
-	z-index: 100;
-	opacity: 0.95;
-    /* background-color: #FCB300; */
-}
-
 .sombra {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: #C1272D;
+}
+
+/* * Se seleccionan todas las clases ".image" (por eso el "*") hijas de card:hover  */
+.card:hover * button {
+  color: white;
 }
