@@ -4,8 +4,8 @@
   <div class="container">
     <div class="row">
         <div class="col-md-12 align-content-between">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/JA1Pg1rfPyg?autoplay=1' | safe: 'resourceUrl'" allowfullscreen></iframe>
+          <div class="embed-responsive embed-responsive-16by9 sombra">
+            <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/JA1Pg1rfPyg?autoplay=1' | safe: 'resourceUrl'" allowfullscreen ></iframe>
           </div>
         </div>
         <!-- <div class="col-md-6 align-content-between">
@@ -20,7 +20,7 @@
 <!-- SECCION PROMOCIONES -->
 <section id="promociones">
     <!-- CUATRO TARJETAS PRINCIPALES -->
-    <div class="album py-5">
+    <div class="album pt-4 pb-5">
         <div class="container">
         <div class="row">
             <div class="col-md-6 align-content-between" *ngFor="let i of array(0, 3)">
@@ -106,6 +106,19 @@
     </div>
   </div>
 </section>
+
+<!-- VIDEO DESPIECE DE VIVIENDA -->
+<div class="album">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 align-content-between">
+            <div class="embed-responsive embed-responsive-16by9 sombra">
+              <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/Fstt4FuRrqI' | safe: 'resourceUrl'" allowfullscreen></iframe>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
 
 
 <!-- NUESTRAS OFICINAS Y FABRICA -->
