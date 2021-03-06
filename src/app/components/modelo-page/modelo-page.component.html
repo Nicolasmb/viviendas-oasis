@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-6">
             <!-- TITULO DEL MODELO -->
-            <div class="container" style="height: 90px;">
+            <div class="container pl-0" style="height: 90px;">
                 <h3 class="mb-4">Modelo: {{ prefabricada.id }}</h3>
             </div>
             <!-- VIDEO YOUTUBE -->
@@ -91,15 +91,29 @@
                     <p class="mb-0" *ngFor="let item of especificacion.instalaciones">{{ item }}</p>
                 </li>
             </ul>
+            <!-- PRECIOS -->
+            <div *ngIf="this.prefabricada.precio_contado" class="d-flex mt-4 px-0 flex-wrap align-items-baseline">
+                <div class="d-flex flex-column mb-2">
+                    <h3 class="my-2">Anticipo: {{ prefabricada.anticipo }}</h3>
+                    <span class="font-weight-bold my-1">Más {{ prefabricada.numero_cuotas}} Cuotas de {{ prefabricada.cuota }} fijas y en pesos.</span>
+                    <span class="mt-1">Precio de contado: {{ prefabricada.precio_contado }}  -  Precio de lista: {{ prefabricada.precio_lista }}</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <!-- Formulario de contacto -->
 <div class="jumbotron mb-0 py-5" style="background-color: rgba(252,240,55)">
-    <div class="container sombra px-0" >
+    <div class="container sombra px-0 position-relative">
             <app-contact-form></app-contact-form>
+            <div>
+                <div class="position-absolute" style="bottom: 500px; right: -5%; width: 17%;">
+                    <img class="img-fluid" style="border-width: 0px; width: 150px;" src="./assets/images/flecha.png" alt="">
+                </div>
+            </div>
     </div>
 </div>
+
 
 <app-footer></app-footer>

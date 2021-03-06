@@ -15,6 +15,22 @@ export class PrefabricadasService {
 
     // MODELOS 36
     {
+      id: "36-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "36 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "36.png",
+      planta: "36.jpg",
+      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
+      precio_lista: "$1.089.000",
+      precio_contado: "$903.800",
+      anticipo: "$173.400",
+      numero_cuotas: 48,
+      cuota: "$19.820",
+    },
+    {
       id: "36-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -23,7 +39,12 @@ export class PrefabricadasService {
       dormitorios: 2,
       isometria: "36.png",
       planta: "36.jpg",
-      video_url: "https://www.youtube.com/embed/ESB8UcNCg10"
+      video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
+      precio_lista: "$949.000",
+      precio_contado: "$785.800",
+      anticipo: "$150.750",
+      numero_cuotas: 48,
+      cuota: "$19.830",
     },
     {
       id: "36-L",
@@ -34,7 +55,12 @@ export class PrefabricadasService {
       dormitorios: 2,
       isometria: "36.png",
       planta: "36.jpg",
-      video_url: "https://www.youtube.com/embed/PNmGP9ELwlg"
+      video_url: "https://www.youtube.com/embed/PNmGP9ELwlg",
+      precio_lista: "$1.479.000",
+      precio_contado: "$1.229.110",
+      anticipo: "$330.770",
+      numero_cuotas: 60,
+      cuota: "$29.746"
     },
     {
       id: "36-S",
@@ -45,18 +71,12 @@ export class PrefabricadasService {
       dormitorios: 2,
       isometria: "36.png",
       planta: "36.jpg",
-      video_url: "https://www.youtube.com/embed/JA1Pg1rfPyg" // No tiene
-    },
-    {
-      id: "36-M",
-      nombre: "Vivienda Minimalista",
-      tipo: "Minimalista",
-      superficie: "36 m²",
-      galeria: false,
-      dormitorios: 2,
-      isometria: "36.png",
-      planta: "36.jpg",
-      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
+      video_url: "https://www.youtube.com/embed/JA1Pg1rfPyg", // No tiene
+      precio_lista: "$1.339.000",
+      precio_contado: "$1.115.340",
+      anticipo: "$319.940",
+      numero_cuotas: 48,
+      cuota: "$28.843",
     },
 
     // MODELOS 42

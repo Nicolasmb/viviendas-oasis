@@ -1,26 +1,22 @@
-<app-carousel></app-carousel>
+<!-- <app-carousel></app-carousel> -->
 
-<div class="album pt-5">
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12 align-content-between">
-          <div class="embed-responsive embed-responsive-16by9 sombra">
-            <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/JA1Pg1rfPyg?autoplay=1' | safe: 'resourceUrl'" allowfullscreen ></iframe>
-          </div>
-        </div>
-        <!-- <div class="col-md-6 align-content-between">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/Fstt4FuRrqI' | safe: 'resourceUrl'" allowfullscreen></iframe>
-          </div>
-        </div> -->
+
+
+<!-- SECCION PROMOCIONES -->
+<!-- BANNER PRINCIPAL -->
+<div>
+  <!-- La clase img-fluid la hace a la imagen responsiva, esto es, cambia su tamaño de acuerdo a la resolucion de la pantalla -->
+  <img class="img-fluid position-relative" style="top: 76px" src="./assets/images/banner_principal.png" alt="First slide">
+  <div class="container" style="margin-bottom: 20px;">
+    <!-- VIDEO -->
+    <div class="embed-responsive embed-responsive-16by9 sombra">
+      <iframe class="embed-responsive-item" [src]="'https://www.youtube.com/embed/JA1Pg1rfPyg?autoplay=1' | safe: 'resourceUrl'" allowfullscreen ></iframe>
     </div>
   </div>
 </div>
-
-<!-- SECCION PROMOCIONES -->
-<section id="promociones">
+<section class="position-relative" id="promociones" style="top: -76px; padding-top: 76px;">
     <!-- CUATRO TARJETAS PRINCIPALES -->
-    <div class="album pt-4 pb-5">
+    <div class="album">
         <div class="container">
         <div class="row">
             <div class="col-md-6 align-content-between" *ngFor="let i of array(0, 3)">
@@ -40,9 +36,9 @@
 </div>
 
 <!-- SECCION: MODELOS DE CASAS -->
-<section id="modelos">
+<section id="modelos" style="padding-top: 76px;">
   <!-- PRIMERAS NUEVE TARJETAS -->
-  <div class="album py-5">
+  <div class="album pb-5">
     <div class="container">
       <div class="row">
           <div class="col-md-4" *ngFor="let i of array(4, 12)">
@@ -125,18 +121,18 @@
 <div class="jumbotron pt-2" style="margin-bottom:0">
 
   <!-- CONTACTO -->
-  <section id="contacto" class="pt-3">
+  <section id="contacto" style="padding-top: 96px;">
     <!-- Formulario de contacto -->
-      <div class="container sombra px-0 mt-5" >
+      <div class="container sombra px-0" >
         <app-contact-form></app-contact-form>
       </div>
   </section>
     
   <!-- NUESTRAS OFICINAS Y FABRICA -->
-  <section id="empresa" class="pt-2">
-    <div class="container mt-5 mb-2">
+  <section id="empresa" style="padding-top: 96px;">
+    <div class="container mb-2">
         <div class="row">
-            <div class="container pt-2">
+            <div class="container">
                 <h2>Acerca de Viviendas Oasis</h2>
                 <p class="text-justify lead">Somos una empresa con más de 30 años en el mercado de las viviendas industrializadas, 
                 lo que nos convierte en una de las pioneras en el país siendo un símbolo de confianza y calidad para nuestros 

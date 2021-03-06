@@ -15,7 +15,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy', scrollPositionRestoration: 'enabled',},)],
+  // Agregar scrollPositionRestoration: 'enabled', si se quiere mantener la posicion hasta donde se hizo scroll al volver a una pagina.
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' },)], 
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

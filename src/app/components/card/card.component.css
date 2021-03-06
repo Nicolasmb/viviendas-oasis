@@ -1,6 +1,7 @@
 :host {
     --rojo: #C1272D;
     --amarillo: #FCEE21;
+    --naranja: #FFC107;
   }
 
 @font-face {
@@ -103,15 +104,18 @@ button {
   font-weight: normal;
 }
 
-.texto-precio {
-  font-size: 30px; 
-  font-weight: bold;
-  color: var(--rojo);
-}
-
 .texto-icono {
   font-size: 14px; 
   font-weight: bold;
+}
+
+.texto-promocion {
+  font-style: italic;
+}
+
+
+.texto-precios {
+  color: gray;
 }
 
 .iconos-caracteristicas {
@@ -123,3 +127,4 @@ button {
 .card:hover .iconos-caracteristicas {
   filter: grayscale(0%);
 }
+

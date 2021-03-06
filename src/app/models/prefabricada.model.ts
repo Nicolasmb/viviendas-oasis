@@ -11,5 +11,10 @@ export interface PrefabricadaModel {
     isometria: string;
     planta: string;
     video_url: string;
+    precio_lista?: string;
+    precio_contado?: string;
+    anticipo?: string;
+    numero_cuotas?: number;
+    cuota?: string;
 
 }
