@@ -2,7 +2,7 @@
 
 html {
     /* Se agrega el efecto de scroll sueva cuando se navegue automáticamente a las diferentes secciones */
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 

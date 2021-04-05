@@ -362,6 +362,17 @@ export class PrefabricadasService {
 
     // MODELOS 64G-3H
     {
+      id: "64G-3H-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "64 m²",
+      galeria: true,
+      dormitorios: 3,
+      isometria: "64G (3H).png",
+      planta: "64G-3H.jpg",
+      video_url: "https://www.youtube.com/embed/WjTqBL7PpIA"
+    },
+    {
       id: "64G-3H-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -394,20 +405,20 @@ export class PrefabricadasService {
       planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/b055DZ9hyio"
     },
+
+    // MODELOS 81
     {
-      id: "64G-3H-M",
+      id: "81-M",
       nombre: "Vivienda Minimalista",
       tipo: "Minimalista",
-      superficie: "64 m²",
-      galeria: true,
+      superficie: "81 m²",
+      galeria: false,
       dormitorios: 3,
-      isometria: "64G (3H).png",
-      planta: "64G-3H.jpg",
-      video_url: "https://www.youtube.com/embed/WjTqBL7PpIA"
+      isometria: "81.png",
+      planta: "81.jpg",
+      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
     },
-
-     // MODELOS 81
-     {
+    {
       id: "81-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -440,19 +451,19 @@ export class PrefabricadasService {
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/r5sAWTzgkT4"
     },
+
+    // MODELOS 81G
     {
-      id: "81-M",
+      id: "81G-M",
       nombre: "Vivienda Minimalista",
       tipo: "Minimalista",
       superficie: "81 m²",
-      galeria: false,
+      galeria: true,
       dormitorios: 3,
-      isometria: "81.png",
-      planta: "81.jpg",
-      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
+      isometria: "81G.png",
+      planta: "81G.jpg",
+      video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
     },
-
-    // MODELOS 81G
     {
       id: "81G-E",
       nombre: "Vivienda Emplacada",
@@ -485,17 +496,6 @@ export class PrefabricadasService {
       isometria: "81G.png",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/03V-0LIg4BM"
-    },
-    {
-      id: "81G-M",
-      nombre: "Vivienda Minimalista",
-      tipo: "Minimalista",
-      superficie: "81 m²",
-      galeria: true,
-      dormitorios: 3,
-      isometria: "81G.png",
-      planta: "81G.jpg",
-      video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
     },
   ]
   
