@@ -15,7 +15,9 @@ const imagenes_oficinas: string[] = ["oficinas_1.jpg", "oficinas_3.jpg", "oficin
 export class HomePageComponent implements OnInit {
 
   public prefabricadas: PrefabricadaModel[] = [];
+  // Se crean las url de las imagenes de la fabrica a partir de los nombres de las imágenes.
   public url_imagenes_fabrica   = images_fabrica.map(imagen => "./assets/images/fabrica/" + imagen);
+  // Se crean las url de las imagenes de la oficina a partir de los nombres de las imágenes.
   public url_imagenes_sucursales = imagenes_oficinas.map(imagen => "./assets/images/oficinas/" + imagen);
 
   // Se inyectan en la presente clase los servicios PrefabricadasService,

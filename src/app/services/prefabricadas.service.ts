@@ -81,6 +81,17 @@ export class PrefabricadasService {
 
     // MODELOS 42
     {
+      id: "42-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "42 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "42.png", // No habia foto, se utilizó esta.
+      planta: "42.jpg", // No habia foto, se utilizó esta.
+      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
+    },
+    {
       id: "42-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -115,6 +126,17 @@ export class PrefabricadasService {
     },
 
     // MODELOS 48
+    {
+      id: "48-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "48 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "48.png", 
+      planta: "48.jpg",
+      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó este.
+    },
     {
       id: "48-E",
       nombre: "Vivienda Emplacada",
@@ -151,6 +173,17 @@ export class PrefabricadasService {
 
     // MODELOS 48G
     {
+      id: "48G-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "48 m²",
+      galeria: true,
+      dormitorios: 2,
+      isometria: "48G.png",
+      planta: "48G.jpg",
+      video_url: "https://www.youtube.com/embed/_TjdUvYKifU" // No habia video, se utilizó este.
+    },
+    {
       id: "48G-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -185,6 +218,17 @@ export class PrefabricadasService {
     },
 
     // MODELOS 54
+    {
+      id: "54-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "54 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "54.png", // No habia foto, se utilizó esta.
+      planta: "",
+      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
+    },
     {
       id: "54-E",
       nombre: "Vivienda Emplacada",
@@ -222,6 +266,17 @@ export class PrefabricadasService {
     
     // MODELOS 54G
     {
+      id: "54G-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "54 m²",
+      galeria: true,
+      dormitorios: 2,
+      isometria: "54G.png",
+      planta: "54G.jpg",
+      video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
+    },
+    {
       id: "54G-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -256,6 +311,17 @@ export class PrefabricadasService {
     },
 
     // MODELOS 64-2H
+    {
+      id: "64-2H-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "64 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "64 (2H).png",
+      planta: "64-2H.jpg",
+      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
+    },
     {
       id: "64-2H-E",
       nombre: "Vivienda Emplacada",
@@ -292,6 +358,17 @@ export class PrefabricadasService {
 
     // MODELOS 64-3H
     {
+      id: "64-3H-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "64 m²",
+      galeria: false,
+      dormitorios: 3,
+      isometria: "64 (2H).png",
+      planta: "64-2H.jpg",
+      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
+    },
+    {
       id: "64-3H-E",
       nombre: "Vivienda Emplacada",
       tipo: "Emplacada",
@@ -326,6 +403,17 @@ export class PrefabricadasService {
     },
 
      // MODELOS 64G-2H
+     {
+      id: "64G-2H-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "64 m²",
+      galeria: true,
+      dormitorios: 2,
+      isometria: "64G (2H).png",
+      planta: "64G-2H.jpg",
+      video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
+    },
      {
       id: "64G-2H-E",
       nombre: "Vivienda Emplacada",
@@ -459,7 +547,7 @@ export class PrefabricadasService {
       tipo: "Minimalista",
       superficie: "81 m²",
       galeria: true,
-      dormitorios: 3,
+      dormitorios: 2,
       isometria: "81G.png",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
@@ -470,7 +558,7 @@ export class PrefabricadasService {
       tipo: "Emplacada",
       superficie: "81 m²",
       galeria: true,
-      dormitorios: 3,
+      dormitorios: 2,
       isometria: "81G.png",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/iZ2sYg9Xgys"
@@ -481,7 +569,7 @@ export class PrefabricadasService {
       tipo: "Chalet de Ladrillos",
       superficie: "81 m²",
       galeria: true,
-      dormitorios: 3,
+      dormitorios: 2,
       isometria: "81G.png",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/IVT0cMDvffA"
@@ -492,7 +580,7 @@ export class PrefabricadasService {
       tipo: "Superboard Siding",
       superficie: "81 m²",
       galeria: true,
-      dormitorios: 3,
+      dormitorios: 2,
       isometria: "81G.png",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/03V-0LIg4BM"

@@ -37,6 +37,7 @@
 
 <!-- SECCION: MODELOS DE CASAS -->
 <section id="modelos" style="padding-top: 76px;">
+
   <!-- PRIMERAS NUEVE TARJETAS -->
   <div class="album pb-5">
     <div class="container">
@@ -101,6 +102,26 @@
       </div>
     </div>
   </div>
+
+  <!-- BANNER LLAMATIVO 5 -->
+  <div class="container">
+    <div class="row">
+      <img class="img-fluid w-100" src="./assets/images/banners/mobile_banner_casa.jpg" alt="">
+    </div>
+  </div>
+  
+  <!-- QUINTAS NUEVE TARJETAS -->
+  <div class="album py-5">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4" *ngFor="let i of array(40, 47)">
+              <app-card [precio]="false" [prefabricada]="prefabricadas[i]"></app-card>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- SECCION: MODELOS DE CASAS -->
 </section>
   
 <div class="jumbotron pt-2" style="margin-bottom:0">
