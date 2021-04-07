@@ -8,10 +8,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 // Se importa el componenete AppComponent.
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // MODULOS DE TERCERES
 // Se importa el módulo para el pipe que transforma las url en seguras.
 import { SafePipeModule } from 'safe-pipe';
+// Se importa el módudo para crear galerias ng-opengallery
+import { NgOpengalleryModule } from 'ng-opengallery';
+// Se importa el módulo para crear galerias ng-gallery
+import { GalleryModule } from 'ng-gallery';
 
 // COMPONENTES PERSONALES
 import { CardComponent } from './components/card/card.component';
@@ -46,6 +51,9 @@ import { SharedModule } from './shared/shared.module';
     AppRoutingModule,
     SharedModule,
     SafePipeModule,
+    NgOpengalleryModule,
+    GalleryModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   // Con el metadato "bootstrap" (arranque) se define el componente raíz que Angular

@@ -17,24 +17,27 @@
                 <h6 class="my-1">Más {{ prefabricada.numero_cuotas}} Cuotas de {{ prefabricada.cuota }} fijas y en pesos.</h6>
                 <!-- <span class="mt-1">Precio de contado: {{ prefabricada.precio_contado }} - Precio de lista: {{ prefabricada.precio_lista }}</span> -->
             </div>
-            <div class="flex-grow-1"></div>
-            <!-- <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
-            <span class="texto-icono mr-2">{{ prefabricada.superficie }}</span> -->
-            <img class="iconos-caracteristicas" src="./assets/images/dormitorios.png"/>
-            <span class="texto-icono mr-2">{{ prefabricada.dormitorios }}</span>
-            <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
-            <span class="texto-icono">1</span>
+            <div class="col"></div>
+            <div class="container-small mx-2">
+                <img class="iconos-caracteristicas" src="./assets/images/dormitorios.png"/>
+                <span class="texto-icono mr-2">{{ prefabricada.dormitorios }}</span>
+                <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
+                <span class="texto-icono">1</span>
+            </div>
         </div>
         <!-- Opción sin precio pero con metros cuadrados -->
         <div *ngIf="!this.precio" class="d-flex my-2 flex-wrap px-3 justify-content-center">
+            <!-- EMOJI SUPERFICIE -->
             <div class="container-small mx-2">
                 <img class="iconos-caracteristicas" src="./assets/images/m2.png"/>
                 <span class="texto-icono mr-2">{{ prefabricada.superficie }}</span>
             </div>
+            <!-- EMOJI DORMITORIOS -->
             <div class="container-small mx-2">
                 <img class="iconos-caracteristicas" src="./assets/images/dormitorios.png"/>
                 <span class="texto-icono mr-2">{{ prefabricada.dormitorios }}</span>
             </div>
+            <!-- EMOJI BAÑOS -->
             <div class="container-small mx-2">
                 <img class="iconos-caracteristicas" src="./assets/images/baños.png"/>
                 <span class="texto-icono">1</span>

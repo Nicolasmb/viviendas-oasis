@@ -133,7 +133,7 @@
         <app-contact-form></app-contact-form>
       </div>
   </section>
-    
+
   <!-- NUESTRAS OFICINAS Y FABRICA -->
   <section id="empresa" style="padding-top: 96px;">
     <div class="container mb-2">
@@ -148,47 +148,41 @@
         </div>
         <div class="row mb-1">
           <div class="col">
+
               <!-- IMAGENES DE LAS SUCURSALES -->
               <div class="text-center pt-3">
-                  <h4 class="text-left">Nuestras Sucursales</h4> 
-                  <div class="carousel slide" id="sucursales" data-ride="carousel">
-                      <div class="carousel-inner sombra" >
-                          <div class="carousel-item active">
-                              <img class="img-fluid" [src]="url_imagenes_sucursales[0]" alt="Nuestras sucursales">
-                          </div>
-                          <div class="carousel-item" *ngFor="let img_sucursal of url_imagenes_sucursales | slice:1, let i=index">
-                              <img class="img-fluid" [src]="img_sucursal" alt="Nuestras sucursales">
-                          </div>
-                      </div>
-                      <!-- Control Izquierdo y Control Derecho -->
-                      <a class="carousel-control-prev" href="#sucursales" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
-                      </a>
-                      <a class="carousel-control-next" href="#sucursales" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
-                      </a>
-                  </div>
+                  <h4 class="text-left pb-2">Nuestras Sucursales</h4> 
+                  <gallery id="galeria1"
+                           class="sombra"
+                           style="height: 600px;" 
+                           [items]="galleryItem_sucursales" 
+                           [counter]="false" 
+                           [imageSize]="'cover'" 
+                           [autoPlay]="true"
+                           [thumbWidth]="200"
+                           [thumbHeight]="133"
+                           thumbPosition="left"
+                           [autoPlay]="true"
+                           [playerInterval]="4500">
+                  </gallery>
               </div>
+
               <!-- IMAGENES DE LA FABRICA -->
               <div class="text-center pt-5">
-                  <h4 class="text-left">Nuestra Fábrica</h4>
-                  <div class="carousel slide" id="fabrica" data-ride="carousel">
-                      <div class="carousel-inner sombra">
-                          <div class="carousel-item active">
-                              <img class="img-fluid" [src]="url_imagenes_fabrica[0]" alt="Nuestras fabricas">
-                          </div>
-                          <div class="carousel-item" *ngFor="let img_fabrica of url_imagenes_fabrica | slice:1, let i=index">
-                              <img class="img-fluid" [src]="img_fabrica" alt="Nuestras fabricas">
-                          </div>
-                      </div>
-                      <!-- Control Izquierdo y Control Derecho -->
-                      <a class="carousel-control-prev" href="#fabrica" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" style="filter: invert(100%)"></span>
-                      </a>
-                      <a class="carousel-control-next" href="#fabrica" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" style="filter: invert(100%)"></span>
-                      </a>
-                  </div>
+                  <h4 class="text-left pb-2">Nuestra Fábrica</h4>
+                  <gallery id="galeria2" 
+                           class="sombra"
+                           style="height: 600px;" 
+                           [items]="galleryItem_fabrica" 
+                           [counter]="false" 
+                           [imageSize]="'cover'" 
+                           [autoPlay]="true"
+                           [thumbWidth]="200"
+                           [thumbHeight]="133"
+                           thumbPosition="right"
+                           [autoPlay]="true"
+                           [playerInterval]="6000">
+                  </gallery>
               </div>
           </div>
         </div>
