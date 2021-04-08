@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 import { PrefabricadaModel } from '../../models/prefabricada.model';
 import { PrefabricadasService } from '../../services/prefabricadas.service';
@@ -26,6 +26,10 @@ export class HomePageComponent implements OnInit {
   // Se crean las url de las imagenes de la oficina a partir de los nombres de las imágenes.
   public url_imagenes_sucursales = imagenes_sucursales.map(imagen => "./assets/images/oficinas/" + imagen);
   public galleryItem_sucursales: GalleryItem[];
+  // Bandera para determinar si se colocan las imagenes miniaturas, o no, de la galería de fotos.
+  public thumb: boolean;
+  // Altura de la imagen principal de la galería de fotos.
+  public altura_galeria: string;
   
   // Se crea una arreglo para alojar objetos Media para la galeria ng-opengallery.
   public data: Media[] = [];
@@ -45,10 +49,20 @@ export class HomePageComponent implements OnInit {
   // Router, el cual se encargará de permitir la navegación a otras paginas.
   constructor( private _servicio: PrefabricadasService,
                private router: Router ) { 
-  }
-
+              }
+              
   ngOnInit(): void {
-    console.log("Prefabricadas component");
+    // Se determina si se va a mostrar la vista miniatura de la galería de fotos en función del ancho de la pantalla.
+    if( window.innerWidth > 1000 ) {
+      this.thumb = true;
+      this.altura_galeria = (document.getElementById("contenedor-galeria").offsetWidth * 0.55 + 133).toString() + 'px';
+      console.log(this.altura_galeria);
+    } else {
+      // Si la pantalla es pequeña se desactiva la vista en miniatura.
+      this.thumb = false;
+      this.altura_galeria = (document.getElementById("contenedor-galeria").offsetWidth * 0.65).toString() + 'px';
+    }
+
     // Al iniciarse el componente se descargan la información de las prefabricadas.
     this.prefabricadas = this._servicio.getPrefabricadas();
     this.galleryItem_fabrica = this.url_imagenes_fabrica.map(imagen => new ImageItem({src: imagen, thumb: imagen}));
@@ -56,7 +70,7 @@ export class HomePageComponent implements OnInit {
     this.loadImagenesFabrica();
   }
   
-  
+
   // Función que recibe dos números enteros y devuelve un arreglo de números enteros 
   // con valores ascendentes dentro de los límites.
   array( n1: number, n2: number ) {
