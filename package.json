@@ -26,7 +26,7 @@
     "firebase-tools": "^9.3.0",
     "font-awesome": "^4.7.0",
     "ng-gallery": "^5.0.0",
-    "ng-opengallery": "0.0.5",
+    "ng-opengallery": "0.0.4",
     "rxjs": "~6.6.0",
     "safe-pipe": "^1.0.3",
     "sweetalert2": "^10.13.3",

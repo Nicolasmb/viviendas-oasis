@@ -32,14 +32,12 @@ export class HomePageComponent implements OnInit {
   
   // Se crea un objeto de tipo Config. para la galeria ng-opengallery
   public config: Config = {
-    diaporamaDuration: 3,
-    layout: LayoutStyle.CATALOG,
+    diaporamaDuration: 2,
+    layout: LayoutStyle.MASONRY,
     prefMediaHeight: 250,
-    spacing: 2,
+    spacing: 1,
     viewerEnabled: true,
-    viewerFullsize: true,
     enableAutoPlay: false,
-    effectClass: null
   }
 
   // Se inyectan en la presente clase los servicios PrefabricadasService,
@@ -76,29 +74,10 @@ export class HomePageComponent implements OnInit {
 
 
   loadImagenesFabrica() {
-    // Para cada nombre de las images de la fabrica (almacenados en el arreglo imagenes_fabrica) 
-    // se crea un objeto de tipo Media.
-    this.data = images_fabrica.map(imagen => new Media("./assets/images/fabrica/" + imagen, imagen));
-  }
-
-
-  onChange(event) {
-    console.log('CHANGE event: ' + event);
-  }
-
-
-  onError(event) {
-    console.log('ERROR event: ' + event);
-  }
-
-
-  onSelection(event) {
-    console.log('SELECTION event: ' + event);
-  }
-
-
-  onOpen(event) {
-    console.log('OPEN event: ' + event);
+    // Para cada nombre de las images de la galería se crea un objeto de tipo Media.
+    for (var i=1; i < 45; i++) {
+      this.data.push(new Media("./assets/images/galeria/" + i + ".jpg", i.toString()))
+    }
   }
 
 }

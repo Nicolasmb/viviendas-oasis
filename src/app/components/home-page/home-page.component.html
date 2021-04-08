@@ -111,7 +111,7 @@
   </div>
   
   <!-- QUINTAS NUEVE TARJETAS -->
-  <div class="album py-5">
+  <div class="album pt-5">
     <div class="container">
       <div class="row">
           <div class="col-md-4" *ngFor="let i of array(40, 47)">
@@ -121,18 +121,32 @@
     </div>
   </div>
 
-<!-- SECCION: MODELOS DE CASAS -->
 </section>
+<!-- FIN SECCION: MODELOS DE CASAS -->
   
-<div class="jumbotron pt-2" style="margin-bottom:0">
+<!-- SECCCION: CONTACTO -->
+<section id="contacto" style="padding: 96px 0 96px;">
+  <!-- Formulario de contacto -->
+  <div class="container sombra px-0" >
+    <app-contact-form></app-contact-form>
+  </div>
+</section>
+<!-- FIN SECCCION: CONTACTO -->
 
-  <!-- CONTACTO -->
-  <section id="contacto" style="padding-top: 96px;">
-    <!-- Formulario de contacto -->
-      <div class="container sombra px-0" >
-        <app-contact-form></app-contact-form>
-      </div>
-  </section>
+<!-- SECCION: GALERIA DE FOTOS -->
+<section id="galeria" style="background-color: #292B33;">
+  <div class="container" style="padding: 96px 0 96px; ">
+    <h4 class="pb-3 text-white">Galería de Fotos</h4> 
+    <ng-opengallery
+      [datasource]='this.data'
+      [config]='this.config'>
+    </ng-opengallery>
+  </div>
+</section>
+<!-- FIN SECCION: GALERIA DE FOTOS -->
+
+
+<div class="jumbotron pt-0" style="margin-bottom:0">
 
   <!-- NUESTRAS OFICINAS Y FABRICA -->
   <section id="empresa" style="padding-top: 96px;">
@@ -148,20 +162,19 @@
         </div>
         <div class="row mb-1">
           <div class="col">
-
               <!-- IMAGENES DE LAS SUCURSALES -->
               <div class="text-center pt-3">
                   <h4 class="text-left pb-2">Nuestras Sucursales</h4> 
                   <gallery id="galeria1"
                            class="sombra"
-                           style="height: 600px;" 
+                           style="height: 766px;" 
                            [items]="galleryItem_sucursales" 
                            [counter]="false" 
                            [imageSize]="'cover'" 
                            [autoPlay]="true"
                            [thumbWidth]="200"
                            [thumbHeight]="133"
-                           thumbPosition="left"
+                           thumbPosition="bottom"
                            [autoPlay]="true"
                            [playerInterval]="4500">
                   </gallery>
@@ -172,14 +185,14 @@
                   <h4 class="text-left pb-2">Nuestra Fábrica</h4>
                   <gallery id="galeria2" 
                            class="sombra"
-                           style="height: 600px;" 
+                           style="height: 766px;" 
                            [items]="galleryItem_fabrica" 
                            [counter]="false" 
                            [imageSize]="'cover'" 
                            [autoPlay]="true"
                            [thumbWidth]="200"
                            [thumbHeight]="133"
-                           thumbPosition="right"
+                           thumbPosition="bottom"
                            [autoPlay]="true"
                            [playerInterval]="6000">
                   </gallery>

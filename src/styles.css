@@ -14,3 +14,24 @@ html {
 .bg-amarillo {
     background-color: #fcee21
 }
+
+
+/* Esto se hace para que los estilos de Bootstrap no superpongan los de ng-opengallery */
+ng-opengallery .modal-content {
+    background-color: transparent;
+}
+
+/* Esto se hace para que los estilos de Bootstrap no superpongan los de ng-opengallery */
+ng-opengallery .close {
+    float: none;
+    text-shadow: none;
+    opacity: 1;
+}
+
+ng-opengallery .close:not(:disabled):not(.disabled):hover {
+    opacity: 1;
+}
+
+ng-opengallery h3 {
+    font-size: 1.17em;
+}
