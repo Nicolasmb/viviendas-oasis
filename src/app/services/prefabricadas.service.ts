@@ -21,7 +21,7 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png",
+      isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
       precio_lista: "$1.089.000",
@@ -37,7 +37,7 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png",
+      isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
       precio_lista: "$949.000",
@@ -53,7 +53,7 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png",
+      isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/PNmGP9ELwlg",
       precio_lista: "$1.479.000",
@@ -69,7 +69,7 @@ export class PrefabricadasService {
       superficie: "36 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "36.png",
+      isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/JA1Pg1rfPyg", // No tiene
       precio_lista: "$1.339.000",
@@ -87,7 +87,7 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png", // No habia foto, se utilizó esta.
+      isometria: "42.jpg", // No habia foto, se utilizó esta.
       planta: "42.jpg", // No habia foto, se utilizó esta.
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
     },
@@ -98,7 +98,7 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png",
+      isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
     },
@@ -109,7 +109,7 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png",
+      isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/zbpmgWmNk1c",
     },
@@ -120,7 +120,7 @@ export class PrefabricadasService {
       superficie: "42 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "42.png",
+      isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/i88r6VvTHMc",
     },
@@ -133,7 +133,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png", 
+      isometria: "48.jpg", 
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó este.
     },
@@ -144,7 +144,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png",
+      isometria: "48.jpg",
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/e8Ifs2fwuTI"
     },
@@ -155,7 +155,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png",
+      isometria: "48.jpg",
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/3QDCk3fGKGc" 
     },
@@ -166,7 +166,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "48.png",
+      isometria: "48.jpg",
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/vwpN-fglHa0"
     },
@@ -179,7 +179,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png",
+      isometria: "48G.jpg",
       planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/_TjdUvYKifU" // No habia video, se utilizó este.
     },
@@ -190,7 +190,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png",
+      isometria: "48G.jpg",
       planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/hexnRynq0P8"
     },
@@ -201,7 +201,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png",
+      isometria: "48G.jpg",
       planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/2_0WUd0GjPc"
     },
@@ -212,7 +212,7 @@ export class PrefabricadasService {
       superficie: "48 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "48G.png",
+      isometria: "48G.jpg",
       planta: "48G.jpg",
       video_url: "https://www.youtube.com/embed/4Qh3K2tpNCc"
     },
@@ -225,7 +225,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png", // No habia foto, se utilizó esta.
+      isometria: "54.jpg", // No habia foto, se utilizó esta.
       planta: "",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
     },
@@ -236,7 +236,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png",
+      isometria: "54.jpg",
       planta: "",
       video_url: "https://www.youtube.com/embed/NDCCYsJpMCQ"
     },
@@ -247,7 +247,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png",
+      isometria: "54.jpg",
       planta: "",
       video_url: "https://www.youtube.com/embed/-nImjUFh2aY"
     },
@@ -258,7 +258,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "54.png",
+      isometria: "54.jpg",
       planta: "",
       video_url: "https://www.youtube.com/embed/wazT6hkVlSw"
     },
@@ -272,7 +272,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png",
+      isometria: "54G.jpg",
       planta: "54G.jpg",
       video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
     },
@@ -283,7 +283,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png",
+      isometria: "54G.jpg",
       planta: "54G.jpg",
       video_url: "https://www.youtube.com/embed/KcYXF-F7UdM"
     },
@@ -294,7 +294,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png",
+      isometria: "54G.jpg",
       planta: "54G.jpg",
       video_url: "https://www.youtube.com/embed/r5qeo6kuIfg"
     },
@@ -305,7 +305,7 @@ export class PrefabricadasService {
       superficie: "54 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "54G.png",
+      isometria: "54G.jpg",
       planta: "54G.jpg",
       video_url: "https://www.youtube.com/embed/tA1mYsfb3g8"
     },
@@ -318,7 +318,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png",
+      isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
     },
@@ -329,7 +329,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png",
+      isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/wOkrSAuWDXI  "
     },
@@ -340,7 +340,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png",
+      isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/HzqiBszYLdc"
     },
@@ -351,7 +351,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 2,
-      isometria: "64 (2H).png",
+      isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/eIu3DdUy9Yw"
     },
@@ -364,7 +364,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (2H).png",
+      isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
     },
@@ -375,7 +375,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (3H).png",
+      isometria: "64 (3H).jpg",
       planta: "64-3H.jpg",
       video_url: "https://www.youtube.com/embed/SZo19weiY1k"
     },
@@ -386,7 +386,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (3H).png",
+      isometria: "64 (3H).jpg",
       planta: "64-3H.jpg",
       video_url: "https://www.youtube.com/embed/35S7K059p1g"
     },
@@ -397,7 +397,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "64 (3H).png",
+      isometria: "64 (3H).jpg",
       planta: "64-3H.jpg",
       video_url: "https://www.youtube.com/embed/Yc2khVLovkM"
     },
@@ -410,7 +410,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png",
+      isometria: "64G (2H).jpg",
       planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
     },
@@ -421,7 +421,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png",
+      isometria: "64G (2H).jpg",
       planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/EkaHP8J86P0"
     },
@@ -432,7 +432,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png",
+      isometria: "64G (2H).jpg",
       planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/1M8DPOJ-AHU"
     },
@@ -443,7 +443,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "64G (2H).png",
+      isometria: "64G (2H).jpg",
       planta: "64G-2H.jpg",
       video_url: "https://www.youtube.com/embed/NUse8o5-usQ"
     },
@@ -456,7 +456,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png",
+      isometria: "64G (3H).jpg",
       planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/WjTqBL7PpIA"
     },
@@ -467,7 +467,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png",
+      isometria: "64G (3H).jpg",
       planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/GgE1p91FWeE"
     },
@@ -478,7 +478,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png",
+      isometria: "64G (3H).jpg",
       planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/AKteKH9OcUc"
     },
@@ -489,7 +489,7 @@ export class PrefabricadasService {
       superficie: "64 m²",
       galeria: true,
       dormitorios: 3,
-      isometria: "64G (3H).png",
+      isometria: "64G (3H).jpg",
       planta: "64G-3H.jpg",
       video_url: "https://www.youtube.com/embed/b055DZ9hyio"
     },
@@ -502,7 +502,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png",
+      isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
     },
@@ -513,7 +513,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png",
+      isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/NSYbww4QARU"
     },
@@ -524,7 +524,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png",
+      isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/mmvjqu7D6WI"
     },
@@ -535,7 +535,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: false,
       dormitorios: 3,
-      isometria: "81.png",
+      isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/r5sAWTzgkT4"
     },
@@ -548,7 +548,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "81G.png",
+      isometria: "81G.jpg",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/_TjdUvYKifU"
     },
@@ -559,7 +559,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "81G.png",
+      isometria: "81G.jpg",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/iZ2sYg9Xgys"
     },
@@ -570,7 +570,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "81G.png",
+      isometria: "81G.jpg",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/IVT0cMDvffA"
     },
@@ -581,7 +581,7 @@ export class PrefabricadasService {
       superficie: "81 m²",
       galeria: true,
       dormitorios: 2,
-      isometria: "81G.png",
+      isometria: "81G.jpg",
       planta: "81G.jpg",
       video_url: "https://www.youtube.com/embed/03V-0LIg4BM"
     },

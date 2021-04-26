@@ -26,9 +26,9 @@ export class HomePageComponent implements OnInit {
   // Se crean las url de las imagenes de la oficina a partir de los nombres de las imágenes.
   public url_imagenes_sucursales = imagenes_sucursales.map(imagen => "./assets/images/oficinas/" + imagen);
   public galleryItem_sucursales: GalleryItem[];
-  // Bandera para determinar si se colocan las imagenes miniaturas, o no, de la galería de fotos.
+  // Bandera para determinar si se colocan las imagenes miniaturas, o no, de las galerías de sucursales y fabrica.
   public thumb: boolean;
-  // Altura de la imagen principal de la galería de fotos.
+  // Altura de la imagen principal de las galerías de sucursales y fabrica.
   public altura_galeria: string;
   
   // Se crea una arreglo para alojar objetos Media para la galeria ng-opengallery.
@@ -52,7 +52,7 @@ export class HomePageComponent implements OnInit {
               }
               
   ngOnInit(): void {
-    // Se determina si se va a mostrar la vista miniatura de la galería de fotos en función del ancho de la pantalla.
+    // Se determina si se va a mostrar la vista miniatura de las galerías de empresa y sucursales en función del ancho de la pantalla.
     if( window.innerWidth > 1000 ) {
       this.thumb = true;
       this.altura_galeria = (document.getElementById("contenedor-galeria").offsetWidth * 0.55 + 133).toString() + 'px';
