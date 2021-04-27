@@ -4,11 +4,28 @@
 }
 
 
-button {
+button.rojo {
   color: white;
   font-weight: bold;
   background-color: #C1272D;
 }
+
+button:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #C1272D;
+}
+
+button.negro {
+  color: white;
+  font-weight: bold;
+  background-color: #292B33;
+}
+
+button.negro:disabled {
+  opacity: 1;
+}
+
 
 /* * Se seleccionan todas las clases ".image" (por eso el "*") hijas de card:hover  */
 .card:hover * button {

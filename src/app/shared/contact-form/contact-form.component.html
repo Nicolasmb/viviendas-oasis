@@ -3,12 +3,12 @@
 
     <!-- FORMULARIO -->
     <!-- ngForm es una directiva que crea un objeto de tipo FormGroup y lo vincula a un formulario 
-        para realizar un seguimiento de los valores agregados al mismo y su estado de validación.
-        Se usa la variable de plantilla #f="ngForm" para obtener una referencia al FormGroup asociado al formulario. -->
+         para realizar un seguimiento de los valores agregados al mismo y su estado de validación.
+         Se usa la variable de plantilla #f="ngForm" para obtener una referencia al FormGroup asociado al formulario. -->
     <!-- El FormGroup creado con "ngForm" tiene un evento "ngSubmit", similar al "onsubmit" de HTML -->
     <!-- Cuando se presione el boton de tipo "submit", contenido en este formulario, se va a generar el evento (ngSubmit) y se va a
-        ejecutar el método login( f ) (del modelo en TypeScript) pasandos la variable "f" que hace referencia a este formulario. -->
-    <form id="loginform" action="index.html" #f="ngForm"> 
+         ejecutar el método onSubmit() (del modelo en TypeScript) pasandos la variable "f" que hace referencia a este formulario. -->
+    <form id="loginform" (ngSubmit)="onSubmit()" #f="ngForm"> 
 
         <!-- CUERPO DE LA TARJETA -->
         <div class="card-body px-4 py-0">
@@ -16,8 +16,7 @@
             <!-- Aca se hace uso de la variable de plantilla del FormControl "var_email", la variable con nombre #var_email.
                 Se hace un binding de propiedad asignando el valor de la variable #var_email a la propiedad [class.has-danger]-->
             <div class="form-group mt-2 mb-4 text-left" [class.has-danger]="var_email.invalid && var_email.touched">
-                <span *ngIf="var_email.invalid && var_email.touched" 
-                    class="text-danger animated fadeIn">El correo electrónico es obligatorio</span>
+                <span *ngIf="var_email.invalid && var_email.touched" class="text-danger animated fadeIn">El correo electrónico es obligatorio</span>
                 <!-- ngModel es una directiva que crea un objeto de tipo FormControl y lo vincula a un control de formulario.
                     Se usa la variable de plantilla #email="ngModel" para obtener una referencia al FormControl asociado al control de formulario.
                     Es obligatorio especificar el atributo "name" de los controles que tengan la directiva ngModel, ya que será a través de dicho 
@@ -29,25 +28,25 @@
                         type="email" 
                         required name="var_email" 
                         placeholder="Correo electrónico" 
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
                         [(ngModel)]="email" 
                         #var_email="ngModel">
             </div>
-            <div class="form-group mt-2 mb-4 text-left" [class.has-danger]="var_nombre.touched">
-                <span *ngIf="var_nombre.touched" 
-                    class="text-danger animated fadeIn">El nombre y apellido son obligatorios</span>
+            <div class="form-group mt-2 mb-4 text-left" [class.has-danger]="var_nombre.invalid && var_nombre.touched">
+                <span *ngIf="var_nombre.invalid && var_nombre.touched" class="text-danger animated fadeIn">El nombre y apellido son obligatorios</span>
                 <input  class="form-control" 
                         type="text"
-                        required name="var_nombre" 
+                        required 
+                        name="var_nombre" 
+                        minlength="5"
                         placeholder="Nombre y Apellido" 
                         [(ngModel)]="nombre" 
                         #var_nombre="ngModel">
             </div>
-            <div class="form-group mt-2 mb-4 text-left" [class.has-danger]="var_telefono.touched">
-                <span *ngIf="var_telefono.touched" 
-                    class="text-danger animated fadeIn">El número de teléfono es obligatorio</span>
+            <div class="form-group mt-2 mb-4 text-left">
                 <input  class="form-control" 
                         type="tel"
-                        required name="var_telefono" 
+                        name="var_telefono" 
                         placeholder="Teléfono" 
                         [(ngModel)]="telefono" 
                         #var_telefono="ngModel">
@@ -69,7 +68,8 @@
             <!-- Si se quisiera deshabilitar el botón segun el formulario sea válido o no habría que hacer binding del
                 atributo "disabled" del boton, esto es: [disabled]="f.invalid", de esta forma se estaría haciendo uso de
                 la variable de plantilla que contiene una referencia al objeto FormGroup asociado al formulario -->
-            <button class="btn btn-block pt-2 mb-5" type="submit">Consultar ahora!</button>
+            <button *ngIf="!submitted" class="btn btn-danger btn-block rojo mb-4 pb-2" type="submit" [disabled]="submitted">Consultar ahora!</button>
+            <button *ngIf="submitted" class="btn btn-block negro mb-4 pb-2" [disabled]="submitted">Gracias por contactarte, a la brevedad uno de nuestros asesores se comunicará con vos!</button>
 
         </div>
         <!-- FIN DEL CUERPO DE LA TARJETA -->
@@ -79,4 +79,13 @@
 
     <!-- FIN CUERDO DE LA TARJETA -->
 </div>
+
+
+
+
+
+
+
+
+
 

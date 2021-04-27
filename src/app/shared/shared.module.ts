@@ -2,6 +2,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms'
+import { HttpClientModule, HttpClientJsonpModule} from '@angular/common/http'
 // COMPONENTES
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -21,7 +22,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
   ],
   exports: [
     NavbarComponent,
