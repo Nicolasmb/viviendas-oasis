@@ -21,6 +21,8 @@ export class ContactFormComponent implements OnInit {
   email:    string;
   telefono: string;
   mensaje:  string;
+  localidad:string;
+  
 
   constructor( private http: HttpClient ) { }
 
@@ -36,6 +38,7 @@ export class ContactFormComponent implements OnInit {
             .set('NAME', this.nombre)
             .set('PHONE', this.telefono)
             .set('MMERGE6', this.mensaje)
+            .set('MMERGE1', this.localidad)
             // .set('b_6c35a170982691829190212b7_02ed19ca8d','')
 
     const mailChimpUrl = this.mailChimpEndpoint + params.toString();

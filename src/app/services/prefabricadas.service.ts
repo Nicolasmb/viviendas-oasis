@@ -26,9 +26,9 @@ export class PrefabricadasService {
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
       precio_lista: "$1.089.000",
       precio_contado: "$903.800",
-      anticipo: "$173.400",
+      anticipo: "$190.740",
       numero_cuotas: 48,
-      cuota: "$19.820",
+      cuota: "$21.802",
     },
     {
       id: "36-E",
@@ -42,9 +42,9 @@ export class PrefabricadasService {
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
       precio_lista: "$949.000",
       precio_contado: "$785.800",
-      anticipo: "$150.750",
+      anticipo: "$165.825",
       numero_cuotas: 48,
-      cuota: "$19.830",
+      cuota: "$21.802",
     },
     {
       id: "36-L",
@@ -58,9 +58,9 @@ export class PrefabricadasService {
       video_url: "https://www.youtube.com/embed/PNmGP9ELwlg",
       precio_lista: "$1.479.000",
       precio_contado: "$1.229.110",
-      anticipo: "$330.770",
+      anticipo: "$363.487",
       numero_cuotas: 60,
-      cuota: "$29.746"
+      cuota: "$32.720"
     },
     {
       id: "36-S",
@@ -74,9 +74,9 @@ export class PrefabricadasService {
       video_url: "https://www.youtube.com/embed/JA1Pg1rfPyg", // No tiene
       precio_lista: "$1.339.000",
       precio_contado: "$1.115.340",
-      anticipo: "$319.940",
+      anticipo: "$351.935",
       numero_cuotas: 48,
-      cuota: "$28.843",
+      cuota: "$31.727",
     },
 
     // MODELOS 42
