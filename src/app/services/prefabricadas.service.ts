@@ -59,7 +59,7 @@ export class PrefabricadasService {
       precio_lista: "$1.479.000",
       precio_contado: "$1.229.110",
       anticipo: "$399.835",
-      numero_cuotas: 48,
+      numero_cuotas: 60,
       cuota: "$35.993"
     },
     {
