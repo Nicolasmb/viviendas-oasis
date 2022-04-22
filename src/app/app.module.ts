@@ -42,7 +42,7 @@ import { SharedModule } from './shared/shared.module';
     CarouselComponent,
     HomePageComponent,
     ModeloPageComponent,
-    CardComponent
+    CardComponent,
   ],
   imports: [
   //  Bajo este epígrafe se declaran las importaciones que son necesarias para
