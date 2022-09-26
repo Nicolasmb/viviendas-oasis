@@ -24,11 +24,11 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
-      precio_lista: "$1.512.000",
-      precio_contado: "$1.260.000",
-      anticipo: "$241.542",
+      precio_lista: "$1.409.957",
+      precio_contado: "$1.174.964",
+      anticipo: "$335.408",
       numero_cuotas: 48,
-      cuota: "$35.052",
+      cuota: "$48.674",
     },
     {
       id: "36-E",
@@ -40,11 +40,11 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      precio_lista: "$1.443.398",
-      precio_contado: "$1.202.832",
-      anticipo: "$230.583 ",
+      precio_lista: "$2.004.321",
+      precio_contado: "$1.670.268",
+      anticipo: "$320.190",
       numero_cuotas: 48,
-      cuota: "$33.462",
+      cuota: "$46.465",
     },
     {
       id: "36-L",
@@ -56,11 +56,11 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/PNmGP9ELwlg",
-      precio_lista: "$2.246.400",
-      precio_contado: "$1.872.000",
-      anticipo: "$468.000",
+      precio_lista: "$3.119.407",
+      precio_contado: "$2.599.506",
+      anticipo: "$649.876",
       numero_cuotas: 60,
-      cuota: "$42.471"
+      cuota: "$58.976"
     },
     {
       id: "36-S",
@@ -72,11 +72,11 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/JA1Pg1rfPyg", // No tiene
-      precio_lista: "$2.077.142",
-      precio_contado: "$1.730.952",
-      anticipo: "$496.489 ",
+      precio_lista: "$2.884.351",
+      precio_contado: "$2.403.626",
+      anticipo: "$689.432",
       numero_cuotas: 48,
-      cuota: "$40.634",
+      cuota: "$56.426",
     },
 
     // MODELOS 42
