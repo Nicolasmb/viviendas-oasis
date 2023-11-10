@@ -12,7 +12,39 @@ import { EspecificacionModel } from '../models/especificacion.model';
 export class PrefabricadasService {
 
   private prefabricadas: PrefabricadaModel[] = [
-
+    // MODELOS 30
+    {
+      id: "30-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "30 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "36.jpg",
+      planta: "36.jpg",
+      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
+      precio_lista: "$5.559.000",
+      precio_contado: "$4.630.100",
+      anticipo: "$1.890.000",
+      numero_cuotas: 48,
+      cuota: "$153.000",
+    },
+    {
+      id: "30-E",
+      nombre: "Vivienda Emplacada",
+      tipo: "Emplacada",
+      superficie: "30 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "36.jpg",
+      planta: "36.jpg",
+      video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
+      precio_lista: "$4.649.000",
+      precio_contado: "$3.870.000",
+      anticipo: "$1.580.000",
+      numero_cuotas: 48,
+      cuota: "$128.200",
+    },
     // MODELOS 36
     {
       id: "36-M",
