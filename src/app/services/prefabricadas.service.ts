@@ -39,11 +39,11 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      precio_lista: "$4.649.000",
-      precio_contado: "$3.870.000",
-      anticipo: "$1.580.000",
+      precio_lista: "$5.113.900",
+      precio_contado: "$4.257.000",
+      anticipo: "$1.738.000",
       numero_cuotas: 48,
-      cuota: "$128.200",
+      cuota: "$141.020",
     },
     // MODELOS 36
     {
@@ -72,11 +72,11 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      precio_lista: "$5.579.000",
-      precio_contado: "$4.644.400",
-      anticipo: "$1.904.000",
+      precio_lista: "$6.136.900",
+      precio_contado: "$5.108.840",
+      anticipo: "$2.094.400",
       numero_cuotas: 48,
-      cuota: "$154.0005",
+      cuota: "$165.400",
     },
     {
       id: "36-L",
@@ -630,7 +630,7 @@ export class PrefabricadasService {
         "Paredes interiores en placas de yeso Durlock.",
         "Divisiones interiores revestidas de ambos lados en placas de yeso Durlock."],
       aberturas: [
-        "Ventanas de aluminio blanco 1,50 x 1,50  con vidrios colocados.",
+        "Ventanas de aluminio blanco 1,50 x 1,00  con vidrios colocados.",
         "Puerta de entrada metálica.",
       ],
       techo: [
