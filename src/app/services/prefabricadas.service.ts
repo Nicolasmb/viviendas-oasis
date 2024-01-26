@@ -76,7 +76,7 @@ export class PrefabricadasService {
       precio_contado: "$5.108.840",
       anticipo: "$2.094.400",
       numero_cuotas: 48,
-      cuota: "$165.400",
+      cuota: "$169.400",
     },
     {
       id: "36-L",

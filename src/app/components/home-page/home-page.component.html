@@ -13,19 +13,75 @@
     </div>
   </div>
 </div>
-<section class="position-relative" id="promociones" style="top: -76px; padding-top: 76px;">
-    <!-- SEIS TARJETAS PRINCIPALES -->
-    <div class="album">
-        <div class="container">
+<!-- <div class="jumbotron pt-0" style="margin-bottom:0"> -->
+  <!-- NUESTRAS OFICINAS Y FABRICA -->
+  <section id="empresa" style="padding-top: 76px;">
+    <div class="container mb-2">
         <div class="row">
-            <div class="col-md-6 align-content-between" *ngFor="let i of [1, 3]">
-                <app-card [precio]="true" [prefabricada]="prefabricadas[i]"></app-card>
+            <div class="container">
+                <h2>Acerca de Viviendas Oasis</h2>
+                <p class="text-justify lead">Somos una empresa con más de 30 años en el mercado de las viviendas industrializadas, 
+                lo que nos convierte en una de las pioneras en el país siendo un símbolo de confianza y calidad para nuestros 
+                clientes en todo el país.
+                </p> 
             </div>
         </div>
+        <div class="row mb-1">
+          <div class="col">
+              <!-- IMAGENES DE LAS SUCURSALES -->
+              <div id="contenedor-galeria" class="text-center pt-3">
+                  <h4 class="text-left pb-2">Nuestras Sucursales</h4> 
+                  <gallery  id="galeria1"
+                            class="sombra"
+                            [ngStyle]="{'height': altura_galeria}" 
+                            [items]="galleryItem_sucursales" 
+                            [counter]="false" 
+                            [imageSize]="'cover'" 
+                            [autoPlay]="true"
+                            [thumb]="thumb"
+                            [thumbWidth]="200"
+                            [thumbHeight]="133"
+                            thumbPosition="bottom"
+                            [autoPlay]="true"
+                            [playerInterval]="4500">
+                  </gallery>
+                </div>
+                
+                <!-- IMAGENES DE LA FABRICA -->
+                <div class="text-center pt-5">
+                  <h4 class="text-left pb-2">Nuestra Fábrica</h4>
+                  <gallery  id="galeria2" 
+                            class="sombra"
+                            [ngStyle]="{'height': altura_galeria}" 
+                            [items]="galleryItem_fabrica" 
+                            [counter]="false" 
+                            [imageSize]="'cover'" 
+                            [autoPlay]="true"
+                            [thumb]="thumb"
+                            [thumbWidth]="200"
+                            [thumbHeight]="133"
+                            thumbPosition="bottom"
+                            [autoPlay]="true"
+                            [playerInterval]="6000">
+                  </gallery>
+              </div>
+          </div>
         </div>
     </div>
-</section>
-
+  </section>
+<!-- </div> -->
+  <section class="position-relative" id="promociones" style="padding: 96px 0 96px;">
+      <!-- SEIS TARJETAS PRINCIPALES -->
+      <div class="album">
+          <div class="container">
+          <div class="row">
+              <div class="col-md-6 align-content-between" *ngFor="let i of [1, 3]">
+                  <app-card [precio]="true" [prefabricada]="prefabricadas[i]"></app-card>
+              </div>
+          </div>
+          </div>
+      </div>
+  </section>
 
 <!-- BANNER LLAMATIVO 1-->
 <div class="container">
@@ -152,62 +208,8 @@
 
 
 <div class="jumbotron pt-0" style="margin-bottom:0">
-
   <!-- NUESTRAS OFICINAS Y FABRICA -->
-  <section id="empresa" style="padding-top: 96px;">
-    <div class="container mb-2">
-        <div class="row">
-            <div class="container">
-                <h2>Acerca de Viviendas Oasis</h2>
-                <p class="text-justify lead">Somos una empresa con más de 30 años en el mercado de las viviendas industrializadas, 
-                lo que nos convierte en una de las pioneras en el país siendo un símbolo de confianza y calidad para nuestros 
-                clientes en todo el país.
-                </p> 
-            </div>
-        </div>
-        <div class="row mb-1">
-          <div class="col">
-              <!-- IMAGENES DE LAS SUCURSALES -->
-              <div id="contenedor-galeria" class="text-center pt-3">
-                  <h4 class="text-left pb-2">Nuestras Sucursales</h4> 
-                  <gallery  id="galeria1"
-                            class="sombra"
-                            [ngStyle]="{'height': altura_galeria}" 
-                            [items]="galleryItem_sucursales" 
-                            [counter]="false" 
-                            [imageSize]="'cover'" 
-                            [autoPlay]="true"
-                            [thumb]="thumb"
-                            [thumbWidth]="200"
-                            [thumbHeight]="133"
-                            thumbPosition="bottom"
-                            [autoPlay]="true"
-                            [playerInterval]="4500">
-                  </gallery>
-                </div>
-                
-                <!-- IMAGENES DE LA FABRICA -->
-                <div class="text-center pt-5">
-                  <h4 class="text-left pb-2">Nuestra Fábrica</h4>
-                  <gallery  id="galeria2" 
-                            class="sombra"
-                            [ngStyle]="{'height': altura_galeria}" 
-                            [items]="galleryItem_fabrica" 
-                            [counter]="false" 
-                            [imageSize]="'cover'" 
-                            [autoPlay]="true"
-                            [thumb]="thumb"
-                            [thumbWidth]="200"
-                            [thumbHeight]="133"
-                            thumbPosition="bottom"
-                            [autoPlay]="true"
-                            [playerInterval]="6000">
-                  </gallery>
-              </div>
-          </div>
-        </div>
-    </div>
-
+  <section id="empresa">
     <!-- MAPAS DE UBICACION DE SUCURSALES -->
     <div class="container">
       <div class="row">
