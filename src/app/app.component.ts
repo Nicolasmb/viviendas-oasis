@@ -15,8 +15,20 @@ export class AppComponent implements AfterViewInit {
     Swal.fire({
       title: 'ALERTA!',
       icon: 'warning',
-      html: `<div><p><span style="font-weight: bold">El número de Whatsapp 11-5637-9816 NO pertenece a la empresa Viviendas Oasis</span>.
-      Comuniquese con nosotros a través del botón de Whatsapp de esta página, nuestro formulario de contacto o personalmente en nuestras sucursales.</p></div>`,
+      html: `
+        <div>
+          <p>
+            <span style="font-weight: bold">
+              Nuestra sucursal en San Martín ha cerrado definitivamente. 
+              Cualquier persona que afirme trabajar en esta ubicación está estafando.
+            </span>
+            <br>
+            <br>
+            Por favor, no realice pagos ni proporcione información personal.
+            Para cualquier consulta, comuníquese con nuestras sucursales activas o a través de nuestros canales oficiales.
+          </p>
+        </div>
+      `,
       showCloseButton: true,
       confirmButtonColor: '#000000',
       confirmButtonText: 'Cerrar'
