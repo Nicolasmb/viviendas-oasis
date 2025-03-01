@@ -122,6 +122,25 @@ export class PrefabricadasService {
       isometria: "42.jpg", // No habia foto, se utilizó esta.
       planta: "42.jpg", // No habia foto, se utilizó esta.
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
+      precio_lista: "$12.825.327",
+      precio_contado: "$10.677.467",
+      anticipo: "$4.377.760",
+      cuota: "$413.315"
+    },
+    {
+      id: "45-M",
+      nombre: "Vivienda Minimalista",
+      tipo: "Minimalista",
+      superficie: "45 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "42.jpg", // No habia foto, se utilizó esta.
+      planta: "42.jpg", // No habia foto, se utilizó esta.
+      video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
+      precio_lista: "$12.584.108",
+      precio_contado: "$11.440.087",
+      anticipo: "$4.690.440",
+      cuota: "$442.837"
     },
     {
       id: "42-E",
@@ -133,6 +152,25 @@ export class PrefabricadasService {
       isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
+      precio_lista: "$10.715.250",
+      precio_contado: "$8.929.362",
+      anticipo: "$3.661.038",
+      cuota: "$345.639"
+    },
+    {
+      id: "45-E",
+      nombre: "Vivienda Emplacada",
+      tipo: "Emplacada",
+      superficie: "45 m²",
+      galeria: false,
+      dormitorios: 2,
+      isometria: "42.jpg",
+      planta: "42.jpg",
+      video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
+      precio_lista: "$11.481.645",
+      precio_contado: "$9.567.174",
+      anticipo: "$3.922.541",
+      cuota: "$370.328"
     },
     {
       id: "42-L",
@@ -168,6 +206,10 @@ export class PrefabricadasService {
       isometria: "48.jpg", 
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó este.
+      precio_lista: "$14.642.799",
+      precio_contado: "$12.203.386",
+      anticipo: "$5.003.156",
+      cuota: "$472.360"
     },
     {
       id: "48-E",
@@ -178,7 +220,11 @@ export class PrefabricadasService {
       dormitorios: 2,
       isometria: "48.jpg",
       planta: "48.jpg",
-      video_url: "https://www.youtube.com/embed/e8Ifs2fwuTI"
+      video_url: "https://www.youtube.com/embed/e8Ifs2fwuTI",
+      precio_lista: "$12.245.984",
+      precio_contado: "$10.204.986",
+      anticipo: "$4.184.044",
+      cuota: "$395.017"
     },
     {
       id: "48-L",
@@ -352,7 +398,11 @@ export class PrefabricadasService {
       dormitorios: 2,
       isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
-      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
+      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4",
+      precio_lista: "$19.539.552",
+      precio_contado: "$16.270.428",
+      anticipo: "$6.670.874",
+      cuota: "$629.812"
     },
     {
       id: "64-2H-E",
@@ -363,7 +413,11 @@ export class PrefabricadasService {
       dormitorios: 2,
       isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
-      video_url: "https://www.youtube.com/embed/wOkrSAuWDXI  "
+      video_url: "https://www.youtube.com/embed/wOkrSAuWDXI",
+      precio_lista: "$16.327.977",
+      precio_contado: "$13.606.648",
+      anticipo: "$5.578.725",
+      cuota: "$526.688"
     },
     {
       id: "64-2H-L",
@@ -536,7 +590,11 @@ export class PrefabricadasService {
       dormitorios: 3,
       isometria: "81.jpg",
       planta: "81.jpg",
-      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4"
+      video_url: "https://www.youtube.com/embed/v1y0NCMKjI4",
+      precio_lista: "$24.702.875",
+      precio_contado: "$20.592.260",
+      anticipo: "$8.442.826",
+      cuota: "$797.105"
     },
     {
       id: "81-E",
@@ -547,7 +605,11 @@ export class PrefabricadasService {
       dormitorios: 3,
       isometria: "81.jpg",
       planta: "81.jpg",
-      video_url: "https://www.youtube.com/embed/NSYbww4QARU"
+      video_url: "https://www.youtube.com/embed/NSYbww4QARU",
+      precio_lista: "$20.665.100",
+      precio_contado: "$17.220.914",
+      anticipo: "$7.060.574",
+      cuota: "$666.578"
     },
     {
       id: "81-L",

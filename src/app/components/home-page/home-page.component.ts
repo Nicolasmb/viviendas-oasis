@@ -44,6 +44,8 @@ export class HomePageComponent implements OnInit {
     enableAutoPlay: false,
   }
 
+  public prefabricadasDestacadas: PrefabricadaModel[] = [];
+
   // Se inyectan en la presente clase los servicios PrefabricadasService,
   // el cual se encargará de proveer los datos de cada casa, y el servicio
   // Router, el cual se encargará de permitir la navegación a otras paginas.
@@ -65,11 +67,24 @@ export class HomePageComponent implements OnInit {
 
     // Al iniciarse el componente se descargan la información de las prefabricadas.
     this.prefabricadas = this._servicio.getPrefabricadas();
+
+    // Cargar las prefabricadas destacadas por ID
+    this.cargarPrefabricadasDestacadas([
+      '42-M', '45-M', '48-M', '64-2H-M', '81-M', 
+      '42-E', '45-E', '48-E', '64-2H-E', '81-E'
+    ]);
+
     this.galleryItem_fabrica = this.url_imagenes_fabrica.map(imagen => new ImageItem({src: imagen, thumb: imagen}));
     this.galleryItem_sucursales = this.url_imagenes_sucursales.map(imagen => new ImageItem({src: imagen, thumb: imagen}));
     this.loadImagenesFabrica();
   }
   
+  cargarPrefabricadasDestacadas(ids: string[]): void {
+    // Para cada ID, buscamos la prefabricada correspondiente y la agregamos al array de destacadas
+    this.prefabricadasDestacadas = ids
+      .map(id => this.prefabricadas.find(p => p.id === id))
+      .filter(p => p !== undefined); // Filtrar en caso de que algún ID no exista
+  }
 
   // Función que recibe dos números enteros y devuelve un arreglo de números enteros 
   // con valores ascendentes dentro de los límites.
