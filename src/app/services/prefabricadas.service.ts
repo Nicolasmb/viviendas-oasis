@@ -23,11 +23,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
-      precio_lista: "$7.669.673",
-      precio_contado: "$7.263.584",
-      anticipo: "$2.978.069",
-      numero_cuotas: 36,
-      cuota: "$281.166", 
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$10.067.330",
+      precio_contado: "$8.389.440",
+      anticipo: "$3.283.320",
+      numero_cuotas: 48,
+      cuota: "$309.960", 
     },
     {
       id: "30-E",
@@ -39,11 +40,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      precio_lista: "$7.289.280",
-      precio_contado: "$6.074.397",
-      anticipo: "$2.490.502",
-      numero_cuotas: 36,
-      cuota: "$235.128",
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$8.419.118",
+      precio_contado: "$7.015.927",
+      anticipo: "$2.745.778",
+      numero_cuotas: 48,
+      cuota: "$259.228",
     },
     // MODELOS 36
     {
@@ -56,11 +58,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
-      precio_lista: "$10.472.648",
-      precio_contado: "$8.716.301",
-      anticipo: "$3.573.683",
-      numero_cuotas: 36,
-      cuota: "$373.400",
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$12.080.800",
+      precio_contado: "$10.067.330",
+      anticipo: "$3.939.984",
+      numero_cuotas: 48,
+      cuota: "$371.952",
     },
     {
       id: "36-E",
@@ -72,11 +75,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      precio_lista: "$8.747.130",
-      precio_contado: "$7.289.276",
-      anticipo: "$2.988.603",
-      numero_cuotas: 36,
-      cuota: "$282.155",
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$10.102.934",
+      precio_contado: "$8.419.112",
+      anticipo: "$3.294.934",
+      numero_cuotas: 48,
+      cuota: "$311.075",
     },
     {
       id: "36-L",
@@ -88,11 +92,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/PNmGP9ELwlg",
-      precio_lista: "$10.657.440",
-      precio_contado: "$9.325.260",
-      anticipo: "$3.530.625",
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$16.432.200",
+      precio_contado: "$13.684.122",
+      anticipo: "$4.963.604",
       numero_cuotas: 60,
-      cuota: "$240.000"
+      cuota: "$420.994"
     },
     {
       id: "36-S",
@@ -122,10 +127,12 @@ export class PrefabricadasService {
       isometria: "42.jpg", // No habia foto, se utilizó esta.
       planta: "42.jpg", // No habia foto, se utilizó esta.
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
-      precio_lista: "$12.825.327",
-      precio_contado: "$10.677.467",
-      anticipo: "$4.377.760",
-      cuota: "$413.315"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$14.094.300",
+      precio_contado: "$11.745.216",
+      anticipo: "$4.596.648",
+      numero_cuotas: 48,
+      cuota: "$433.944"
     },
     {
       id: "45-M",
@@ -137,10 +144,12 @@ export class PrefabricadasService {
       isometria: "42.jpg", // No habia foto, se utilizó esta.
       planta: "42.jpg", // No habia foto, se utilizó esta.
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
-      precio_lista: "$12.584.108",
-      precio_contado: "$11.440.087",
-      anticipo: "$4.690.440",
-      cuota: "$442.837"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$15.100.990",
+      precio_contado: "$12.584.160",
+      anticipo: "$4.924.980",
+      numero_cuotas: 48,
+      cuota: "$464.940"
     },
     {
       id: "42-E",
@@ -152,10 +161,12 @@ export class PrefabricadasService {
       isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
-      precio_lista: "$10.715.250",
-      precio_contado: "$8.929.362",
-      anticipo: "$3.661.038",
-      cuota: "$345.639"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$11.786.775",
+      precio_contado: "$9.822.298",
+      anticipo: "$3.844.089",
+      numero_cuotas: 48,
+      cuota: "$362.920"
     },
     {
       id: "45-E",
@@ -167,10 +178,12 @@ export class PrefabricadasService {
       isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
-      precio_lista: "$11.481.645",
-      precio_contado: "$9.567.174",
-      anticipo: "$3.922.541",
-      cuota: "$370.328"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$12.629.809",
+      precio_contado: "$10.523.891",
+      anticipo: "$4.118.668",
+      numero_cuotas: 48,
+      cuota: "$388.844"
     },
     {
       id: "42-L",
@@ -206,10 +219,12 @@ export class PrefabricadasService {
       isometria: "48.jpg", 
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó este.
-      precio_lista: "$14.642.799",
-      precio_contado: "$12.203.386",
-      anticipo: "$5.003.156",
-      cuota: "$472.360"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$16.107.700",
+      precio_contado: "$13.424.104",
+      anticipo: "$5.253.312",
+      numero_cuotas: 48,
+      cuota: "$495.936"
     },
     {
       id: "48-E",
@@ -221,10 +236,12 @@ export class PrefabricadasService {
       isometria: "48.jpg",
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/e8Ifs2fwuTI",
-      precio_lista: "$12.245.984",
-      precio_contado: "$10.204.986",
-      anticipo: "$4.184.044",
-      cuota: "$395.017"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$13.470.572",
+      precio_contado: "$11.225.484",
+      anticipo: "$4.393.246",
+      numero_cuotas: 48,
+      cuota: "$414.767"
     },
     {
       id: "48-L",
@@ -399,10 +416,12 @@ export class PrefabricadasService {
       isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4",
-      precio_lista: "$19.539.552",
-      precio_contado: "$16.270.428",
-      anticipo: "$6.670.874",
-      cuota: "$629.812"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$21.476.980",
+      precio_contado: "$17.897.472",
+      anticipo: "$7.004.416",
+      numero_cuotas: 48,
+      cuota: "$661.248"
     },
     {
       id: "64-2H-E",
@@ -414,10 +433,12 @@ export class PrefabricadasService {
       isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/wOkrSAuWDXI",
-      precio_lista: "$16.327.977",
-      precio_contado: "$13.606.648",
-      anticipo: "$5.578.725",
-      cuota: "$526.688"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$17.960.774",
+      precio_contado: "$14.967.312",
+      anticipo: "$5.857.661",
+      numero_cuotas: 48,
+      cuota: "$553.022"
     },
     {
       id: "64-2H-L",
@@ -591,10 +612,12 @@ export class PrefabricadasService {
       isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4",
-      precio_lista: "$24.702.875",
-      precio_contado: "$20.592.260",
-      anticipo: "$8.442.826",
-      cuota: "$797.105"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$27.181.180",
+      precio_contado: "$22.651.488",
+      anticipo: "$8.864.964",
+      numero_cuotas: 48,
+      cuota: "$836.892"
     },
     {
       id: "81-E",
@@ -606,10 +629,12 @@ export class PrefabricadasService {
       isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/NSYbww4QARU",
-      precio_lista: "$20.665.100",
-      precio_contado: "$17.220.914",
-      anticipo: "$7.060.574",
-      cuota: "$666.578"
+      // PRECIOS ACTUALIZADOS - JULIO 2025
+      precio_lista: "$22.731.610",
+      precio_contado: "$18.943.100",
+      anticipo: "$7.413.610",
+      numero_cuotas: 48,
+      cuota: "$699.906"
     },
     {
       id: "81-L",
