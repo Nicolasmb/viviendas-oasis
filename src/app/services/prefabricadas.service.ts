@@ -23,16 +23,16 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$10.067.330",
-      precio_contado: "$8.389.440",
-      anticipo: "$3.283.320",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$10.470.020",
+      precio_contado: "$8.725.018",
+      anticipo: "$3.414.653",
       numero_cuotas: 48,
-      cuota: "$309.960", 
+      cuota: "$322.359", 
     },
     {
       id: "30-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "30 m²",
       galeria: false,
@@ -40,12 +40,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$8.419.118",
-      precio_contado: "$7.015.927",
-      anticipo: "$2.745.778",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$8.755.882",
+      precio_contado: "$7.296.564",
+      anticipo: "$2.855.609",
       numero_cuotas: 48,
-      cuota: "$259.228",
+      cuota: "$269.597",
     },
     // MODELOS 36
     {
@@ -58,16 +58,16 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$12.080.800",
-      precio_contado: "$10.067.330",
-      anticipo: "$3.939.984",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$12.564.030",
+      precio_contado: "$10.470.023",
+      anticipo: "$4.097.584",
       numero_cuotas: 48,
-      cuota: "$371.952",
+      cuota: "$386.831",
     },
     {
       id: "36-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "36 m²",
       galeria: false,
@@ -75,12 +75,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/ESB8UcNCg10",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$10.102.934",
-      precio_contado: "$8.419.112",
-      anticipo: "$3.294.934",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$10.507.051",
+      precio_contado: "$8.755.876",
+      anticipo: "$3.426.731",
       numero_cuotas: 48,
-      cuota: "$311.075",
+      cuota: "$323.518",
     },
     {
       id: "36-L",
@@ -92,12 +92,12 @@ export class PrefabricadasService {
       isometria: "36.jpg",
       planta: "36.jpg",
       video_url: "https://www.youtube.com/embed/PNmGP9ELwlg",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$16.432.200",
-      precio_contado: "$13.684.122",
-      anticipo: "$4.963.604",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$17.099.000",
+      precio_contado: "$14.231.487",
+      anticipo: "$5.162.148",
       numero_cuotas: 60,
-      cuota: "$420.994"
+      cuota: "$437.834"
     },
     {
       id: "36-S",
@@ -127,12 +127,12 @@ export class PrefabricadasService {
       isometria: "42.jpg", // No habia foto, se utilizó esta.
       planta: "42.jpg", // No habia foto, se utilizó esta.
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$14.094.300",
-      precio_contado: "$11.745.216",
-      anticipo: "$4.596.648",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$14.658.030",
+      precio_contado: "$12.215.024",
+      anticipo: "$4.780.514",
       numero_cuotas: 48,
-      cuota: "$433.944"
+      cuota: "$451.302"
     },
     {
       id: "45-M",
@@ -144,16 +144,16 @@ export class PrefabricadasService {
       isometria: "42.jpg", // No habia foto, se utilizó esta.
       planta: "42.jpg", // No habia foto, se utilizó esta.
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó esta.
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$15.100.990",
-      precio_contado: "$12.584.160",
-      anticipo: "$4.924.980",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$15.705.030",
+      precio_contado: "$13.087.526",
+      anticipo: "$5.121.980",
       numero_cuotas: 48,
-      cuota: "$464.940"
+      cuota: "$483.538"
     },
     {
       id: "42-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "42 m²",
       galeria: false,
@@ -161,16 +161,16 @@ export class PrefabricadasService {
       isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$11.786.775",
-      precio_contado: "$9.822.298",
-      anticipo: "$3.844.089",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$12.258.246",
+      precio_contado: "$10.215.190",
+      anticipo: "$3.997.852",
       numero_cuotas: 48,
-      cuota: "$362.920"
+      cuota: "$377.436"
     },
     {
       id: "45-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "45 m²",
       galeria: false,
@@ -178,12 +178,12 @@ export class PrefabricadasService {
       isometria: "42.jpg",
       planta: "42.jpg",
       video_url: "https://www.youtube.com/embed/7NCM5uWMBzg",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$12.629.809",
-      precio_contado: "$10.523.891",
-      anticipo: "$4.118.668",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$13.135.000",
+      precio_contado: "$10.944.847",
+      anticipo: "$4.283.414",
       numero_cuotas: 48,
-      cuota: "$388.844"
+      cuota: "$404.397"
     },
     {
       id: "42-L",
@@ -219,16 +219,16 @@ export class PrefabricadasService {
       isometria: "48.jpg", 
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/NL7l_dOWIdY", // No habia video, se utilizó este.
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$16.107.700",
-      precio_contado: "$13.424.104",
-      anticipo: "$5.253.312",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$16.753.280",
+      precio_contado: "$13.961.068",
+      anticipo: "$5.463.445",
       numero_cuotas: 48,
-      cuota: "$495.936"
+      cuota: "$515.774"
     },
     {
       id: "48-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "48 m²",
       galeria: false,
@@ -236,12 +236,12 @@ export class PrefabricadasService {
       isometria: "48.jpg",
       planta: "48.jpg",
       video_url: "https://www.youtube.com/embed/e8Ifs2fwuTI",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$13.470.572",
-      precio_contado: "$11.225.484",
-      anticipo: "$4.393.246",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$14.009.394",
+      precio_contado: "$11.674.503",
+      anticipo: "$4.568.976",
       numero_cuotas: 48,
-      cuota: "$414.767"
+      cuota: "$431.357"
     },
     {
       id: "48-L",
@@ -280,7 +280,7 @@ export class PrefabricadasService {
     },
     {
       id: "48G-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "48 m²",
       galeria: true,
@@ -326,7 +326,7 @@ export class PrefabricadasService {
     },
     {
       id: "54-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "54 m²",
       galeria: false,
@@ -373,7 +373,7 @@ export class PrefabricadasService {
     },
     {
       id: "54G-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "54 m²",
       galeria: true,
@@ -416,16 +416,16 @@ export class PrefabricadasService {
       isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$21.476.980",
-      precio_contado: "$17.897.472",
-      anticipo: "$7.004.416",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$22.336.050",
+      precio_contado: "$18.613.370",
+      anticipo: "$7.284.593",
       numero_cuotas: 48,
-      cuota: "$661.248"
+      cuota: "$687.698"
     },
     {
       id: "64-2H-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: false,
@@ -433,12 +433,12 @@ export class PrefabricadasService {
       isometria: "64 (2H).jpg",
       planta: "64-2H.jpg",
       video_url: "https://www.youtube.com/embed/wOkrSAuWDXI",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
       precio_lista: "$17.960.774",
-      precio_contado: "$14.967.312",
-      anticipo: "$5.857.661",
+      precio_contado: "$15.566.000",
+      anticipo: "$6.091.967",
       numero_cuotas: 48,
-      cuota: "$553.022"
+      cuota: "$575 142"
     },
     {
       id: "64-2H-L",
@@ -477,7 +477,7 @@ export class PrefabricadasService {
     },
     {
       id: "64-3H-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: false,
@@ -523,7 +523,7 @@ export class PrefabricadasService {
     },
      {
       id: "64G-2H-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: true,
@@ -569,7 +569,7 @@ export class PrefabricadasService {
     },
     {
       id: "64G-3H-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "64 m²",
       galeria: true,
@@ -612,16 +612,16 @@ export class PrefabricadasService {
       isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/v1y0NCMKjI4",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
-      precio_lista: "$27.181.180",
-      precio_contado: "$22.651.488",
-      anticipo: "$8.864.964",
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
+      precio_lista: "$28.269.060",
+      precio_contado: "$23.557.547",
+      anticipo: "$9.219.563",
       numero_cuotas: 48,
-      cuota: "$836.892"
+      cuota: "$870.368"
     },
     {
       id: "81-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "81 m²",
       galeria: false,
@@ -629,12 +629,12 @@ export class PrefabricadasService {
       isometria: "81.jpg",
       planta: "81.jpg",
       video_url: "https://www.youtube.com/embed/NSYbww4QARU",
-      // PRECIOS ACTUALIZADOS - JULIO 2025
+      // PRECIOS ACTUALIZADOS - AGOSTO 2025
       precio_lista: "$22.731.610",
-      precio_contado: "$18.943.100",
-      anticipo: "$7.413.610",
+      precio_contado: "$19.700.824",
+      anticipo: "$7.710.154",
       numero_cuotas: 48,
-      cuota: "$699.906"
+      cuota: "$727.902"
     },
     {
       id: "81-L",
@@ -673,7 +673,7 @@ export class PrefabricadasService {
     },
     {
       id: "81G-E",
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       tipo: "Emplacada",
       superficie: "81 m²",
       galeria: true,
@@ -711,7 +711,7 @@ export class PrefabricadasService {
 
     // ESPECIFICACIONES: VIVIENDA EMPLACADA
     { 
-      nombre: "Vivienda Emplacada",
+      nombre: "Vivienda Emplacada", // INDUSTRIALIZADA
       paredes: [
         "Paredes externas en placas cementicias Superboard liso preparado para pintar o revestir.",
         "Paredes interiores en placas de yeso Durlock.",
